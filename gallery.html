@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop's Gallery</title>
+    <link href="/sunstyle.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/shiny-pink-spinning-heart-53b2307b-32.css">
+    <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 0px;
+    }
+    .container div {
+        padding: 0px 0px;
+      }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 20%;
+      max-width: 25%;
+      padding: 0 0px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+    
+    img:hover {
+      transform: scale(1.1);
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 45%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    </style>
+  </head>
+  <body>
+  <p><a href="/" class="hlink">&#11164Home</a></p>
+  <div class="container" id="seasonal">
+    <div style="width:80%;padding:0px;">
+      <h1>Art Gallery&#127912&#128396</h1>
+      <p style="font-size:20px;">&#128142Enjoy a not-very-carefully curated set of my favorite art pieces... Mmmm...&#128142</p>
+    </div>
+    <details open>
+      <summary>Finished Digital Illustrations</summary>
+      <div class="container"> 
+        <div class="column">
+          <img src="/pics/beachdragon1.png" style="width:100%">
+          <img src="/pics/hand me my shovel.png" style="width:100%">
+          <img src="/pics/table.png" style="width:100%">
+          <img src="/pics/Vienne parents.png" style="width:100%">
+          <img src="/pics/lani eyes.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="/pics/hal sheet.png" style="width:100%">
+          <img src="/pics/syl amora photo.png" style="width:100%">
+          <img src="/pics/mirror.png" style="width:100%">
+          <img src="/pics/Screenshot_20251126_165805.png" style="width:100%">
+          <img src="/pics/uziaj.png" style="width:100%">
+          <img src="/pics/v biker edit.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="/pics/walking.png" style="width:100%">
+          <img src="/pics/windows.png" style="width:100%">
+          <img src="/pics/monster.png" style="width:100%">
+          <img src="/pics/outlaw v.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="/pics/arm diagrams.png" style="width:100%">
+          <img src="/pics/hot summer darker.png" style="width:100%">
+          <img src="/pics/interrogation.png" style="width:100%">
+          <img src="/pics/lotis.png" style="width:100%">
+          <img src="/pics/woman.png" style="width:100%">
+        </div>
+      </div></details>
+    
+  </div>
+  <script src="/seasoncolors.js"></script>
+  </body>
+</html>

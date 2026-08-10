@@ -1,0 +1,90 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@font-face {
+  font-family: "helicopter"; /* set name */
+  src: url("/fonts/Bring Me A Helicopter!.otf") format("opentype"); /* url of the font */
+}
+@font-face {
+  font-family: "vengeance"; /* set name */
+  src: url("/fonts/Vengeance at Sea.otf") format("opentype"); /* url of the font */
+}
+@font-face {
+  font-family: "cyberpunk"; /* set name */
+  src: url("/fonts/Shizuoka Cyberpunk.otf") format("opentype"); /* url of the font */
+}
+body {
+        background: linear-gradient(#ffc9a9, plum);
+        min-height: 100vh;
+        font-family: courier, sans-serif, monospace;
+        font-size: 25px;
+        max-width: 1500px;
+        margin: 0 auto;
+      }
+      h1 {
+        text-align: center;
+        color: black;
+        font-family: "helicopter", courier;
+      }
+      button {
+        font-family: "cyberpunk", courier, sans-serif, monospace;
+        font-size: 25px;
+        color: mediumvioletred;
+        border: 2px solid mediumvioletred;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: lightpink;
+      }
+      button:hover {
+        transform: scale(0.9);
+      }
+      .heading {
+      display: flex;
+      background-color: orange;
+      min-height: 10vh;
+      padding: 20px;
+      
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(lightyellow,lightblue);
+        border-radius: 5px;
+        min-height: 40vh;
+        margin: 10px 0px;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .box1 {
+        background-color: navajowhite;
+        color: orangered;
+        border: 5px solid orangered;
+        border-radius: 8px;
+        font-size: 25px;
+        padding: 15px;
+        margin: 10px 10px;
+        box-shadow: 0 10px 5px rgba(50,30,15,.5);
+      }
+      .box1:hover {
+        transform: scale(1.05);
+      }
+      a {
+        color: black;
+      }
+      a:hover {
+        background-color: white;
+      }
+      .hlink {
+        color: white;
+        background-color: black;
+      }
+      .hlink:hover {
+        color: black;
+        background-color: white;
+      }
+      @media screen and (max-width: 600px) {
+      .box1 {
+        flex: 100%;
+        max-width: 100%;
+      }
