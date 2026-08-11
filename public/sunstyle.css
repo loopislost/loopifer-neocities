@@ -20,6 +20,7 @@ body {
         font-size: 25px;
         max-width: 1500px;
         margin: 0 auto;
+        overflow-x: hidden;
       }
       h1 {
         text-align: center;
@@ -88,3 +89,4 @@ body {
         flex: 100%;
         max-width: 100%;
       }
+    }
