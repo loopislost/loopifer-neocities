@@ -50,7 +50,26 @@
     </style>
   </head>
   <body>
-  <p><a href="/" class="hlink">&#11164Home</a></p>
+  
+  
+    <div class="header">
+    <ul class="topnav">
+      <li><a href="/index">Home</a></li>
+      <li class="dropdown" onclick="listToggle('blogs')"> 
+      <div><u style="color:black;" onMouseOver="this.style.color='mediumvioletred'"onMouseOut="this.style.color='black'">Blogs</u>
+        <div id="blogs" class="dropdown-content">
+          <a href="/bookblog">Books</a><br>
+          <a href="/personalblog">Personal</a>
+        </div>
+      </div> 
+      </li>
+      <li><a href="/gallery">Art Gallery</a></li>
+      <li><a href="/workshop">Testing Page</a></li>
+      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">Guestbook📝</a></li>
+    </ul>
+    </div>
+
+
   <div class="container" id="seasonal">
     <div style="width:80%;padding:0px;">
       <h1>Art Gallery&#127912&#128396</h1>

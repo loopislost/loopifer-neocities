@@ -77,15 +77,74 @@
       opacity: .9;
     }
     
+    ul.topnav {
+      display: flex;
+      list-style-type: none;
+      border-radius: 50px;
+      border-color: aliceblue;
+      color: antiquewhite;
+      background-color: rgb(34, 31, 35);
+    }
+    ul.topnav li {
+      background-color: rgb(49, 44, 53);
+      display: block;
+      padding: 10px 20px;
+      margin: 5px 5px;
+      border-radius: 5px;
+    }
+    ul.topnav li a:hover {
+      background-color: lightpink;
+      color: mediumvioletred;
+    }
+    ul.topnav li:hover {
+      background-color: lightpink;
+      color: mediumvioletred;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(253, 209, 216);
+      border-radius: 5px;
+      min-width: 160px;
+      padding: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
     </style>
   </head>
   <body>
+    <div class="header">
+    <ul class="topnav">
+      <li><a href="/index">Home</a></li>
+      <li class="dropdown" onclick="listToggle('blogs')"> 
+      <div><u style="color:black;" onMouseOver="this.style.color='mediumvioletred'"onMouseOut="this.style.color='black'">Blogs</u>
+        <div id="blogs" class="dropdown-content">
+          <a href="/bookblog">Books</a><br>
+          <a href="/personalblog">Personal</a>
+        </div>
+      </div> 
+      </li>
+      <li><a href="/gallery">Art Gallery</a></li>
+      <li><a href="/workshop">Testing Page</a></li>
+      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">Guestbook 📝</a></li>
+    </ul>
+    </div>
+
     <div class="heading"><h1 text-align="center">Loopislost</h1></div>
-    <div class="container tooltip">
-    <div class="tooltiptext"> 1</div>
+    <div class="container tooltip"> hover this!
+    <span class="tooltiptext"> 1</span></div>
     <div>Item 2</div>
     <div>Item 3</div>
-    </div>
+    
     <p>test</p>
+    <script>
+      function listToggle(navID) {
+        document.getElementById(navID).classList.toggle("show");
+      }
+      
+  </script>
   </body>
 </html>

@@ -90,3 +90,40 @@ body {
         max-width: 100%;
       }
     }
+    ul.topnav {
+      display: flex;
+      list-style-type: none;
+      border-radius: 50px;
+      border-color: aliceblue;
+      color: antiquewhite;
+      background-color: black;
+      flex-wrap: wrap;
+    }
+    ul.topnav li {
+      background-color: rgb(49, 44, 53);
+      display: block;
+      padding: 10px 20px;
+      margin: 5px 5px;
+      border-radius: 5px;
+    }
+    ul.topnav li a:hover {
+      background-color: lightpink;
+      color: mediumvioletred;
+    }
+    ul.topnav li:hover {
+      background-color: lightpink;
+      color: mediumvioletred;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(253, 209, 216);
+      border-radius: 5px;
+      min-width: 160px;
+      padding: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}

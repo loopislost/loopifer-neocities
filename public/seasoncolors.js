@@ -49,4 +49,8 @@ function onStart() {
     setDay();
   }
 }
+// For header toggles
+function listToggle(navID) {
+        document.getElementById(navID).classList.toggle("show");
+      }
 onStart()
