@@ -96,15 +96,19 @@ body {
       border-radius: 50px;
       border-color: aliceblue;
       color: antiquewhite;
-      background-color: black;
+      background-color: rgb(123, 38, 17);
       flex-wrap: wrap;
+      justify-content: space-evenly;
     }
     ul.topnav li {
-      background-color: rgb(49, 44, 53);
+      background-color: #c04d29;
       display: block;
-      padding: 10px 20px;
+      padding: 3px 15px;
       margin: 5px 5px;
       border-radius: 5px;
+    }
+    ul.topnav li a {
+      text-decoration: none;
     }
     ul.topnav li a:hover {
       background-color: lightpink;
