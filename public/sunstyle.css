@@ -90,55 +90,64 @@ body {
         max-width: 100%;
       }
     }
+    
     ul.topnav {
       display: flex;
       list-style-type: none;
-      border-radius: 50px;
+      border-radius: 5px;
       color: antiquewhite;
-      background-color: rgba(122, 21, 199, 0.242);
-      mix-blend-mode:screen;
+      background-color: rgb(37, 27, 44);
+      /*mix-blend-mode:normal;*/
       flex-wrap: wrap;
       justify-content: space-evenly;
     }
     ul.topnav li {
-      
       opacity: 100%;
-      mix-blend-mode:unset;
+      mix-blend-mode:normal;
       border: 3px solid rgb(0, 0, 0);
       display: block;
       padding: 3px 15px;
       margin: 5px 5px;
       border-radius: 5px;
+      background-color: rgb(88, 59, 90);
     }
     ul.topnav li a {
-      color: white;
+      color: lightpink;
       text-decoration: none;
     }
     .dropclick {
-      color: white;
+      color: pink;
     }
     .dropclick:hover {
       color:mediumvioletred;
     }
-    ul.topnav li a:hover {
-      background-color: lightpink;
+    ul.topnav li:hover a {
+      background-color: rgb(244, 148, 162);
+      color: mediumvioletred;
+    }
+    ul.topnav li:hover .dropclick {
+      background-color: rgb(244, 148, 162);
       color: mediumvioletred;
     }
     ul.topnav li:hover {
-      background-color: lightpink;
+      background-color: rgb(244, 148, 162);
       color: mediumvioletred;
     }
     .dropdown-content {
+      position: absolute;
       display: none;
       position: absolute;
-      background-color: rgb(253, 209, 216);
+      background-color:rgba(88, 59, 90,.9);
+      
 
-      border-radius: 5px;
+      border: 4px solid black;
+      border-radius: 3px;
       min-width: 160px;
       padding: 10px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 2;
     }
+    
 
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
     .show {display:block;}
