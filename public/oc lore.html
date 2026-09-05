@@ -10,17 +10,57 @@
         flex-basis:45%;
         
       }
+      img {
+        max-width: 200px;
+        margin: 0px 15px
+      }
+      .box3 {
+        background-color: rgb(51, 45, 80);
+        border-radius: 3px;
+        border: 3px solid black;
+        margin:10px;
+      }
+      .box4 {
+        background-color: rgb(81, 65, 154);
+        border-radius: 3px;
+        border: 3px solid black;
+        margin:5px 15px;
+      }
     </style>
   </head>
   <body>
-  <p><a href="/" class="hlink">⮜Home</a></p>
-  <div class="container" id="seasonal">
+    <div class="header">
+    <ul class="topnav" >
+      <li><a href="/index">Home</a></li>
+      <li><a href="">Content</a></li>
+      <li class="dropdown" onclick="listToggle('blogs')"> 
+      <div><span class="dropclick">Blogs</span>
+        <div class="blend">
+          <div id="blogs" class="dropdown-content">
+          <a href="/bookblog">Books</a><br>
+          <a href="/personalblog">Personal</a>
+          </div>
+        </div>
+      </div> 
+      </li>
+      <li><a href="/gallery">Art Gallery</a></li>
+      <li><a href="/workshop">Testing Page</a></li>
+      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">Guestbook📝</a></li>
+    </ul>
+    </div>
+  <div id="seasonal" class="container">
     <div style="width:90%"><h1>The World of [<span style="font-family:vengeance,courier new;">Falling Tides</span>]</h1></div>
-    <div style="flex-basis:45%"><h1>OC Descriptions</h1>
-      <div>Image</div><p>[Name] Text</p>
+    <div class="box4" style="flex-basis:45%;overflow-y:scroll;max-height:600px"><h1>OC Descriptions</h1>
+      <div class="box3"><img src="/pics/syl headshot.png" style="float:left;"><p>Syl<br><br><br><br><br><br><br><br></p></div>
+      <div class="box3"><img src="/pics/hal headshot.png" style="float:left;"><p>Hal<br><br><br><br><br><br><br><br></p></div>
+      <div class="box3"><img src="/pics/vienne headshot.png" style="float:left;"><p>Vienne<br><br><br><br><br><br><br><br></p></div>
+      <div class="box3"><img src="/pics/lani headshot.png" style="float:left;"><p>Lani<br><br><br><br><br><br><br><br></p></div>
+      <div class="box3"><img src="/pics/amora headshot.png" style="float:left;"><p>Amora<br><br><br><br><br><br><br><br></p></div>
+      <div class="box3"><img src="/pics/ramiel headshot.png" style="float:left;"><p>Ramiel<br><br><br><br><br><br><br><br></p></div>
     </div>
 
-    <div style="flex-basis:45%"><h1>World Lore</h1>
+
+    <div class="box4" style="flex-basis:45%"><h1>World Lore</h1>
     </div>
   </div>
   <script src="/seasoncolors.js"></script>

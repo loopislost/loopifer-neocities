@@ -90,6 +90,40 @@ body {
         max-width: 100%;
       }
     }
+
+    .blog {
+      background-color: lightpink;
+      border:2px solid hotpink;
+      border-radius:5px;
+      color: white;
+      margin: 7px 0px;
+      width: 100%;
+      float: right;
+    }
+    .blog:hover {
+      transform: scale(1.02);
+    }
+    .box2 {
+        background-color: navajowhite;
+        color: orangered;
+        border: 5px solid orangered;
+        border-radius: 10px;
+        box-shadow: 0 10px 5px rgba(50,30,15,.5);
+      }
+    .box2:hover {
+      transform: scale(1);
+    }
+    .readable {
+      color: black;
+      font-family: verdana;
+      font-size: 20px;
+    }
+    a {
+      color: orangered;
+    }
+    a:hover {
+      background-color: white;
+    }
     
     ul.topnav {
       display: flex;
