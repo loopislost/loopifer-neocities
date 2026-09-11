@@ -155,7 +155,7 @@ body {
     .dropclick:hover {
       color:mediumvioletred;
     }
-    ul.topnav li:hover a {
+    ul.topnav li a:hover {
       background-color: rgb(244, 148, 162);
       color: mediumvioletred;
     }

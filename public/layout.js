@@ -83,7 +83,7 @@ const headerEl = `
 	<header>
 	<ul class="topnav" >
       <li><a href="/index">Home</a></li>
-      <li><a href="/site_map">Content</a></li>
+      <li><a href="/site_map">Site Map</a></li>
       <li class="dropdown" onclick="listToggle('blogs')"> 
         <div><span class="dropclick">Blogs</span>
           <div id="blogs" class="dropdown-content">
@@ -95,12 +95,17 @@ const headerEl = `
       <li class="dropdown" onclick="listToggle('art')">
         <div><span class="dropclick">Art</span>
           <div id="art" class="dropdown-content">
-          <a href="/gallery">Art Gallery</a><br>
+          <a href="/gallery">Gallery</a><br>
           <a href="/personalblog">OC Page</a>
         </div>
       </li>
-      </div> 
-      <li><a href="/workshop">Testing Page</a></li>
+      <li class="dropdown" onclick="listToggle('other')">
+        <div><span class="dropclick">Other</span>
+          <div id="other" class="dropdown-content">
+          <a href="/workshop">Testing Page</a><br>
+        </div>
+      </li> 
+      <li><a href="/commissions" >Commissions</a></li>
       <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">Guestbook📝</a></li>
     </ul>
 	</header>
