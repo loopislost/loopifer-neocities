@@ -19,6 +19,7 @@
         border-radius: 3px;
         border: 3px solid black;
         margin:10px;
+        padding: 5px;
       }
       .box4 {
         background-color: rgb(81, 65, 154);
@@ -26,36 +27,23 @@
         border: 3px solid black;
         margin:5px 15px;
       }
+      p {
+        tab-size: 10;
+      }
     </style>
   </head>
   <body>
-    <div class="header">
-    <ul class="topnav" >
-      <li><a href="/index">Home</a></li>
-      <li><a href="">Content</a></li>
-      <li class="dropdown" onclick="listToggle('blogs')"> 
-      <div><span class="dropclick">Blogs</span>
-        <div class="blend">
-          <div id="blogs" class="dropdown-content">
-          <a href="/bookblog">Books</a><br>
-          <a href="/personalblog">Personal</a>
-          </div>
-        </div>
-      </div> 
-      </li>
-      <li><a href="/gallery">Art Gallery</a></li>
-      <li><a href="/workshop">Testing Page</a></li>
-      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">Guestbook📝</a></li>
-    </ul>
-    </div>
+    
   <div id="seasonal" class="container">
     <div style="width:90%"><h1>The World of [<span style="font-family:vengeance,courier new;">Falling Tides</span>]</h1></div>
     <div class="box4" style="flex-basis:45%;overflow-y:scroll;max-height:600px"><h1>OC Descriptions</h1>
-      <div class="box3"><img src="/pics/syl headshot.png" style="float:left;"><p>Syl<br><br><br><br><br><br><br><br></p></div>
-      <div class="box3"><img src="/pics/hal headshot.png" style="float:left;"><p>Hal<br><br><br><br><br><br><br><br></p></div>
-      <div class="box3"><img src="/pics/vienne headshot.png" style="float:left;"><p>Vienne<br><br><br><br><br><br><br><br></p></div>
-      <div class="box3"><img src="/pics/lani headshot.png" style="float:left;"><p>Lani<br><br><br><br><br><br><br><br></p></div>
-      <div class="box3"><img src="/pics/amora headshot.png" style="float:left;"><p>Amora<br><br><br><br><br><br><br><br></p></div>
+      <div class="box3"><img src="/pics/syl headshot.png" style="float:left;"><p>Syl - <small>wait, you're telling me this one is the main character?</small></p><p>&emsp;&emsp;A spunky 18 year old with a rebellious streak. She attends a prestigious university (mainly for their sports team) and spends her days avoiding her homework and the “friends” her overprotective mother set up for her. 
+      <br>&emsp;&emsp;However, her life plan is thrown into turmoil when she makes friends with an older botany student running an illegal drug operation, leading her farther down into the conspiracy that might upend their world.
+      </p></div>
+      <div class="box3"><img src="/pics/hal headshot.png" style="float:left;"><p>Hal - <small>Just a friendly guy!</small></p><p>&emsp;&emsp;His dreams of living a normal, respectable life have disappeared into the misty unknown of the past. His only companion, Vienne, has descended further into her seemingly incurable condition, only worsened by their life on the run. Nothing else matters; he would do anything to save her.</p></div>
+      <div class="box3"><img src="/pics/vienne headshot.png" style="float:left;"><p>Vienne - <small>Why am I still here? Just to suffer?</small></p><p><small>A parasite needs a host.</small></p><p><br><br></p></div>
+      <div class="box3"><img src="/pics/lani headshot.png" style="float:left;"><p>Lani - <small>Sexy (depressed) mob boss? Sign me up baby!</small></p><p>A childhood friend of Hal & Vienne's. As an adult, she has long since traded her boundless optimism for the cruelty of reality.</p></div>
+      <div class="box3"><img src="/pics/amora headshot.png" style="float:left;"><p>Amora - <small>“quirkchungus child character”</small></p><p>Initially works for Lani but ends up tagging along with the gang. As far as Syl is concerned, he's mainly there to ruin their plans </p></div>
       <div class="box3"><img src="/pics/ramiel headshot.png" style="float:left;"><p>Ramiel<br><br><br><br><br><br><br><br></p></div>
     </div>
 
@@ -63,6 +51,6 @@
     <div class="box4" style="flex-basis:45%"><h1>World Lore</h1>
     </div>
   </div>
-  <script src="/seasoncolors.js"></script>
+  <script src="/seasoncolors.js"></script><script src="/layout.js"></script>
   </body>
 </html>
