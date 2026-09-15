@@ -96,7 +96,7 @@ const headerEl = `
         <div><span class="dropclick">Art</span>
           <div id="art" class="dropdown-content">
           <a href="/gallery">Gallery</a><br>
-          <a href="/personalblog">OC Page</a>
+          <a href="/oc lore">OC Page</a>
         </div>
       </li>
       <li class="dropdown" onclick="listToggle('other')">
