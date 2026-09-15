@@ -84,12 +84,11 @@ body {
         color: black;
         background-color: white;
       }
-      @media screen and (max-width: 600px) {
-      .box1 {
+      
+    .box1, .blankbox, .box3, .box4 {
         flex: 100%;
         max-width: 100%;
       }
-    }
 
     .blog {
       background-color: lightpink;
