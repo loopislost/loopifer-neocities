@@ -1,0 +1,42 @@
+<table>
+<tr>
+<th>Date</th><th>Title</th><th>Author</th><th>Rating</th>
+</tr><tr>
+<td>19/9/2026</td><td>A Hat Full of Sky</td><td>Terry Pratchett</td><td>7</td>
+</tr><tr>
+<td>15/9/2026</td><td>Dune: Messiah</td><td>Frank Herbert</td><td>7</td>
+</tr><tr>
+<td>11/9/2026</td><td>Frankenstein: the Modern Prometheus</td><td>Mary Shelley</td><td>6</td>
+</tr><tr>
+<td>11/9/2026</td><td>The Wee Free Men</td><td>Terry Pratchett</td><td>6</td>
+</tr><tr>
+<td>11/9/2026</td><td>Speaker for the Dead</td><td>Orson Scott Card</td><td>9</td>
+</tr><tr>
+<td>11/9/2026</td><td>Remain</td><td>Nicholas Sparks</td><td>3</td>
+</tr><tr>
+<td>22/8/2026</td><td>The Monsters We Make: Murder; Obsession; and the Rise of Criminal Profiling</td><td>Rachel Corbett</td><td>7</td>
+</tr><tr>
+<td>12/8/2026</td><td>Wintersmith</td><td>Terry Pratchett</td><td>7</td>
+</tr><tr>
+<td>12/8/2026</td><td>I Love Amy</td><td>Unni</td><td>3</td>
+</tr><tr>
+<td>9/8/2026</td><td>Demon in the Wood</td><td>Leigh Bardugo and Dani Pendergast</td><td>7</td>
+</tr><tr>
+<td>9/8/2026</td><td>Tiffany Aching’s Guide To Being a Witch</td><td>Rhianna Pratchett; Gabrielle Kent; Paul Kidby</td><td>5</td>
+</tr><tr>
+<td>9/8/2026</td><td>Recitaf</td><td>Toni Morrison</td><td>4</td>
+</tr><tr>
+<td>9/8/2026</td><td>Dune</td><td>Frank Herbert</td><td>8</td>
+</tr><tr>
+<td>9/8/2026</td><td>Nimona</td><td>N.D. Stevenson</td><td>6</td>
+</tr><tr>
+<td>8/8/2026</td><td>Not Alone</td><td>Sarah Jackson</td><td>4</td>
+</tr><tr>
+<td>8/8/2026</td><td>Pixels of You</td><td>Ananth Hirsh; Yuko Ota; J.R. Doyle</td><td>8</td>
+</tr><tr>
+<td>Date Unknown</td><td>Dragonwatch</td><td>Brandon Mull</td><td>4</td>
+</tr><tr>
+<td>Date Unknown</td><td>Thief of the Heights</td><td>Son M.; Robert Yao</td><td>5</td>
+</tr><tr>
+<td>Date Unknown</td><td>Five Kingdoms (Sky Raiders)</td><td>Brandon Mull</td><td>4</td>
+</tr></table>
