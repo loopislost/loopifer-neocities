@@ -14,183 +14,183 @@
   src: url("/fonts/Shizuoka Cyberpunk.otf") format("opentype"); /* url of the font */
 }
 body {
-        background: linear-gradient(#ffc9a9, plum);
-        min-height: 100vh;
-        font-family: courier, sans-serif, monospace;
-        font-size: 25px;
-        max-width: 1500px;
-        margin: 0 auto;
-        overflow-x: hidden;
-      }
-      h1 {
-        text-align: center;
-        color: black;
-        font-family: "helicopter", courier;
-      }
-      button {
-        font-family: "cyberpunk", courier, sans-serif, monospace;
-        font-size: 25px;
-        color: mediumvioletred;
-        border: 2px solid mediumvioletred;
-        border-radius: 5px;
-        padding: 5px;
-        background-color: lightpink;
-      }
-      button:hover {
-        transform: scale(0.9);
-      }
-      .heading {
-      display: flex;
-      background-color: orange;
-      min-height: 10vh;
-      padding: 20px;
-      
-      }
-      .container {
-        display: flex;
-        flex-direction: row;
-        background: linear-gradient(lightyellow,lightblue);
-        border-radius: 5px;
-        min-height: 40vh;
-        margin: 10px 0px;
-        padding: 0;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .box1 {
-        background-color: navajowhite;
-        color: orangered;
-        border: 5px solid orangered;
-        border-radius: 8px;
-        font-size: 25px;
-        padding: 15px;
-        margin: 10px 10px;
-        box-shadow: 0 10px 5px rgba(50,30,15,.5);
-      }
-      .steambox {
-      background-color: rgb(255, 127, 95);
-      color: white;
-      border: 2px solid orangered;
-      border-radius: 2px;
-      font-size: 25px;
-      padding: 2px 2px;
-      box-shadow: 0 2px 2px rgba(50,30,15,.5);
-      font-size: 18px;
-      }
-      .box1:hover {
-        transform: scale(1.05);
-      }
-      a {
-        color: black;
-      }
-      a:hover {
-        background-color: white;
-      }
-      .hlink {
-        color: white;
-        background-color: black;
-      }
-      .hlink:hover {
-        color: black;
-        background-color: white;
-      }
-      
-    .box1, .blankbox, .box3, .box4 {
-        flex: 100%;
-        max-width: 100%;
-      }
+  background: linear-gradient(#ffc9a9, plum);
+  min-height: 100vh;
+  font-family: courier, sans-serif, monospace;
+  font-size: 25px;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "helicopter", courier;
+}
+button {
+  font-family: "cyberpunk", courier, sans-serif, monospace;
+  font-size: 25px;
+  color: mediumvioletred;
+  border: 2px solid mediumvioletred;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightpink;
+}
+button:hover {
+  transform: scale(0.9);
+}
+.heading {
+display: flex;
+background-color: orange;
+min-height: 10vh;
+padding: 20px;
 
-    .blog {
-      background-color: lightpink;
-      border:2px solid hotpink;
-      border-radius:5px;
-      color: white;
-      margin: 7px 0px;
-      width: 100%;
-      float: right;
-    }
-    .blog:hover {
-      transform: scale(1.02);
-    }
-    .box2 {
-        background-color: navajowhite;
-        color: orangered;
-        border: 5px solid orangered;
-        border-radius: 10px;
-        box-shadow: 0 10px 5px rgba(50,30,15,.5);
-      }
-    .box2:hover {
-      transform: scale(1);
-    }
-    .readable {
-      color: black;
-      font-family: verdana;
-      font-size: 20px;
-    }
-    a {
-      color: orangered;
-    }
-    a:hover {
-      background-color: white;
-    }
-    
-    ul.topnav {
-      display: flex;
-      list-style-type: none;
-      border-radius: 5px;
-      color: antiquewhite;
-      background-color: rgb(37, 27, 44);
-      /*mix-blend-mode:normal;*/
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-    ul.topnav li {
-      opacity: 100%;
-      mix-blend-mode:normal;
-      border: 3px solid rgb(0, 0, 0);
-      display: block;
-      padding: 3px 15px;
-      margin: 5px 5px;
-      border-radius: 5px;
-      background-color: rgb(88, 59, 90);
-    }
-    ul.topnav li a {
-      color: lightpink;
-      text-decoration: none;
-    }
-    .dropclick {
-      color: pink;
-    }
-    .dropclick:hover {
-      color:mediumvioletred;
-    }
-    ul.topnav li a:hover {
-      background-color: rgb(244, 148, 162);
-      color: mediumvioletred;
-    }
-    ul.topnav li:hover .dropclick {
-      background-color: rgb(244, 148, 162);
-      color: mediumvioletred;
-    }
-    ul.topnav li:hover {
-      background-color: rgb(244, 148, 162);
-      color: mediumvioletred;
-    }
-    .dropdown-content {
-      position: absolute;
-      display: none;
-      position: absolute;
-      background-color:rgba(88, 59, 90,.9);
-      
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(lightyellow,lightblue);
+  border-radius: 5px;
+  min-height: 40vh;
+  margin: 10px 0px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box1 {
+  background-color: navajowhite;
+  color: orangered;
+  border: 5px solid orangered;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 15px;
+  margin: 10px 10px;
+  box-shadow: 0 10px 5px rgba(50,30,15,.5);
+}
+.steambox {
+background-color: rgb(255, 127, 95);
+color: white;
+border: 2px solid orangered;
+border-radius: 2px;
+font-size: 25px;
+padding: 2px 2px;
+box-shadow: 0 2px 2px rgba(50,30,15,.5);
+font-size: 18px;
+}
+.box1:hover {
+  transform: scale(1.05);
+}
+a {
+  color: black;
+}
+a:hover {
+  background-color: white;
+}
+.hlink {
+  color: white;
+  background-color: black;
+}
+.hlink:hover {
+  color: black;
+  background-color: white;
+}
 
-      border: 4px solid black;
-      border-radius: 3px;
-      min-width: 160px;
-      padding: 10px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 2;
-    }
-    
+.box1, .blankbox, .box3, .box4 {
+  flex: 100%;
+  max-width: 100%;
+}
 
-    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-    .show {display:block;}
+.blog {
+background-color: lightpink;
+border:2px solid hotpink;
+border-radius:5px;
+color: white;
+margin: 7px 0px;
+width: 100%;
+float: right;
+}
+.blog:hover {
+transform: scale(1.02);
+}
+.box2 {
+  background-color: navajowhite;
+  color: orangered;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  box-shadow: 0 10px 5px rgba(50,30,15,.5);
+}
+.box2:hover {
+transform: scale(1);
+}
+.readable {
+color: black;
+font-family: verdana;
+font-size: 20px;
+}
+a {
+color: orangered;
+}
+a:hover {
+background-color: white;
+}
+
+ul.topnav {
+display: flex;
+list-style-type: none;
+border-radius: 5px;
+color: antiquewhite;
+background-color: rgb(37, 27, 44);
+/*mix-blend-mode:normal;*/
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+ul.topnav li {
+opacity: 100%;
+mix-blend-mode:normal;
+border: 3px solid rgb(0, 0, 0);
+display: block;
+padding: 3px 15px;
+margin: 5px 5px;
+border-radius: 5px;
+background-color: rgb(88, 59, 90);
+}
+ul.topnav li a {
+color: lightpink;
+text-decoration: none;
+}
+.dropclick {
+color: pink;
+}
+.dropclick:hover {
+color:mediumvioletred;
+}
+ul.topnav li a:hover {
+background-color: rgb(244, 148, 162);
+color: mediumvioletred;
+}
+ul.topnav li:hover .dropclick {
+background-color: rgb(244, 148, 162);
+color: mediumvioletred;
+}
+ul.topnav li:hover {
+background-color: rgb(244, 148, 162);
+color: mediumvioletred;
+}
+.dropdown-content {
+position: absolute;
+display: none;
+position: absolute;
+background-color:rgba(88, 59, 90,.9);
+
+
+border: 4px solid black;
+border-radius: 3px;
+min-width: 160px;
+padding: 10px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 2;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
