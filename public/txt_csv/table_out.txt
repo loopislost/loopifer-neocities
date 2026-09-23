@@ -44,6 +44,16 @@
 </tr><tr>
 <td>Non Books</td><td>--------</td><td>------</td><td>----------</td><td>--</td>
 </tr><tr>
+<td>22/9/2026</td><td>Show</td><td>Meta Runners</td><td></td><td>3</td>
+</tr><tr>
+<td>22/9/2026</td><td>Show</td><td>Murder Drones</td><td></td><td>4</td>
+</tr><tr>
+<td>22/9/2026</td><td>Show</td><td>Cowboy Bebop</td><td></td><td>5</td>
+</tr><tr>
+<td>22/9/2026</td><td>Show</td><td>The Amazing Digital Circus</td><td>Gooseworx</td><td>8</td>
+</tr><tr>
+<td>22/9/2026</td><td>Show</td><td>Andor</td><td></td><td>9</td>
+</tr><tr>
 <td>21/9/2026</td><td>Film</td><td>The Stepford Wives</td><td></td><td>5</td>
 </tr><tr>
 <td>15/9/2026</td><td>Musical</td><td>Nerdy Prudes Must Die</td><td>StarKid</td><td>9</td>

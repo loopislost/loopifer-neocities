@@ -82,38 +82,46 @@ const nesting = getNestingString();
 const headerEl = `
 	<header>
 	<ul class="topnav" >
-      <li><a href="/index">Home</a></li>
-      <li><a href="/site_map">Site Map</a></li>
+      <li><a href="/index">home</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/site_map">site_map</a></li>
       <li class="dropdown" onclick="listToggle('blogs')"> 
-        <div><span class="dropclick">Blogs</span>
+        <div><span class="dropclick">blogs</span>
           <div id="blogs" class="dropdown-content">
-          <a href="/bookblog">Books</a><br>
-          <a href="/personalblog">Personal</a>
+          <a href="/bookblog">books</a><br>
+          <a href="/personalblog">personal</a>
         </div>
       </div> 
       </li>
       <li class="dropdown" onclick="listToggle('art')">
-        <div><span class="dropclick">Art</span>
+        <div><span class="dropclick">art</span>
           <div id="art" class="dropdown-content">
-          <a href="/gallery">Gallery</a><br>
-          <a href="/oc lore">OC Page</a>
+          <a href="/gallery">gallery</a><br>
+          <a href="/oc lore">OC page</a>
         </div>
       </li>
       <li class="dropdown" onclick="listToggle('other')">
-        <div><span class="dropclick">Other</span>
+        <div><span class="dropclick">other</span>
           <div id="other" class="dropdown-content">
-          <a href="/workshop">Testing Page</a><br>
+          <a href="/workshop">testing page</a><br>
+          <a href="/ramblings">crazed ramblings</a><br>
         </div>
       </li> 
-      <li><a href="/commissions" >Commissions</a></li>
-      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">Guestbook📝</a></li>
+      <li><a href="/commissions" >commissions</a></li>
+      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">guestbook📝</a></li>
     </ul>
 	</header>
 `;
 
 // Insert your footer HTML inside these ``. You can use HTML as usual.
 // Remove all the content inside the `` if you don't have a footer.
-const footerEl = ``;
+const footerEl = `
+<img src="/neocities.png" alt="first art"><a href="https://petrapixel.neocities.org/about/blinkies" target="_blank">
+<img src="/pics/widgets/queercode.png" alt="you're telling me a queer coded this" title="queer-coded"></a>
+<img src="https://ezrakruger.cc/adbank/a?lang=en&size=468x60" width="468" height="60" alt="banner"> 
+<iframe src="https://john.citrons.xyz/embed?ref=mondecitronne.com" style="margin-left:auto;display:block;margin-right:auto;margin-bottom:10px;margin-top:21px;max-width:500px;max-height:80px;width:100%;border:none;display:inline;"></iframe>
+<script src="/seasoncolors.js"></script><script src="/layout.js"></script>
+`;
 
 // Insert your sidebar HTML inside these ``. You can use HTML as usual.
 // Remove all the content inside the `` if you don't have a sidebar.
