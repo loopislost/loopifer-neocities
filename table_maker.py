@@ -7,15 +7,15 @@ with open("/home/loop/SAVE THIS PLEASE/loopifer-neocities/public/txt_csv/bookrev
 
 with open("/home/loop/SAVE THIS PLEASE/loopifer-neocities/public/txt_csv/table_out.txt", 'w') as myfile:
     myfile.write("<table>\n")
-    myfile.write("<tr>\n")
+    myfile.write("<tr>")
     for category in lst[0]:
         string = "<th>" + category + "</th>"
         myfile.write(string)
-    myfile.write("\n</tr>")
+    myfile.write("</tr>")
     for row in lst[1:]:
-        myfile.write("<tr>\n")
+        myfile.write("<tr>")
         for cell in row:
             string = "<td>" + cell + "</td>"
             myfile.write(string)
-        myfile.write("\n</tr>")
-    myfile.write("</table>")
+        myfile.write("</tr>")
+    myfile.write("\n</table>")
