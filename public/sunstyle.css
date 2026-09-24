@@ -56,7 +56,6 @@ padding: 0px;
   flex-direction: row;
   background: linear-gradient(lightyellow,lightblue);
   border-radius: 5px;
-  min-height: 40vh;
   margin: 10px auto;
   padding: 0;
   flex-wrap: wrap;
