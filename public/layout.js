@@ -84,7 +84,7 @@ const headerEl = `
 	<ul class="topnav" >
       <li><a href="/index">home</a></li>
       <li><a href="/about">about</a></li>
-      <li><a href="/site_map">site_map</a></li>
+      <li><a href="/site-map">site_map</a></li>
       <li class="dropdown" onclick="listToggle('blogs')"> 
         <div><span class="dropclick">blogs</span>
           <div id="blogs" class="dropdown-content">
@@ -97,14 +97,14 @@ const headerEl = `
         <div><span class="dropclick">art</span>
           <div id="art" class="dropdown-content">
           <a href="/gallery">gallery</a><br>
-          <a href="/oc lore">OC page</a>
+          <a href="/oc-lore">OC page</a>
         </div>
       </li>
       <li class="dropdown" onclick="listToggle('other')">
         <div><span class="dropclick">other</span>
           <div id="other" class="dropdown-content">
           <a href="/workshop">testing page</a><br>
-          <a href="/ramblings">crazed ramblings</a><br>
+          <a href="/articles/article-hub">article hub</a><br>
         </div>
       </li> 
       <li><a href="/commissions" >commissions</a></li>

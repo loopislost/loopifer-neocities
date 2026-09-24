@@ -60,7 +60,7 @@ padding: 0px;
   margin: 10px auto;
   padding: 0;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 .box1 {
   background-color: navajowhite;
