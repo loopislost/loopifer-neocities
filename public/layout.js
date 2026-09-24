@@ -116,7 +116,7 @@ const headerEl = `
 // Insert your footer HTML inside these ``. You can use HTML as usual.
 // Remove all the content inside the `` if you don't have a footer.
 const footerEl = `
-<img src="/neocities.png" alt="first art"><a href="https://petrapixel.neocities.org/about/blinkies" target="_blank">
+<img src="/pics/neocities.png" alt="first art"><a href="https://petrapixel.neocities.org/about/blinkies" target="_blank">
 <img src="/pics/widgets/queercode.png" alt="you're telling me a queer coded this" title="queer-coded"></a>
 <img src="https://ezrakruger.cc/adbank/a?lang=en&size=468x60" width="468" height="60" alt="banner"> 
 <iframe src="https://john.citrons.xyz/embed?ref=mondecitronne.com" style="margin-left:auto;display:block;margin-right:auto;margin-bottom:10px;margin-top:21px;max-width:500px;max-height:80px;width:100%;border:none;display:inline;"></iframe>

@@ -57,7 +57,7 @@ padding: 0px;
   background: linear-gradient(lightyellow,lightblue);
   border-radius: 5px;
   min-height: 40vh;
-  margin: 10px 0px;
+  margin: 10px auto;
   padding: 0;
   flex-wrap: wrap;
   justify-content: center;
