@@ -60,7 +60,10 @@ function getNestingString() {
 }
 
 /* ********************************* */
-
+// For header toggles
+function listToggle(navID) {
+        document.getElementById(navID).classList.toggle("show");
+      }
 /**
  *  H T M L
  */
