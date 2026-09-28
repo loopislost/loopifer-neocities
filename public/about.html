@@ -19,22 +19,26 @@
       border-spacing: 10px;
     }
     td {
-      width:40%;
+      flex-basis:45%;
       vertical-align: top;
       margin: 10px 10px;
       background-color: rgb(255, 234, 196);
     }
     .box1 {
       padding: 0 20px;
+      flex-basis: 100%;
+      max-width:80%;
     }
     .scrollbox {
       max-height:400px;
       overflow-y:scroll;
     }
     @media screen and (width < 600px) {
-      .gridbox > div {
-        width:80%;
-        margin: 0 auto;
+      .gridbox {
+        display:flex;
+      }
+      td {
+        display: flex;
       }
     }
   </style>
@@ -49,7 +53,7 @@
       <h4 style="text-align:center; line-height:3px;font-family:vengeance;">they/them - 19</h4>
       
       <p><h1>Who are You?</h1>
-        &emsp;&emsp;Hello there! I usually go by Loop online (and irl... rarely). I hail from the US. I'm currently a <b>Mechanical Engineering</b> student (though thinking about switching majors). I probably come across as slightly insane in this website, but I am unfortunately much drier in real life.<br> 
+        &emsp;&emsp;Hello there! I usually go by Loop online (and irl... rarely). I hail from the US. I'm currently a <b>Mechanical Engineering</b> student (though thinking about switching majors). I probably come across as slightly insane in this website, but I'm a lot more reserved in real life.<br> 
         &emsp;&emsp;I spend most of my free time reading, drawing, working on this website, or daydreaming about my other projects.</p>
 
       <p><h1>Why Make Website?</h1>
@@ -78,7 +82,7 @@
           <li>Python</li>
           <li>Arduino IDE</li>
         </ul>
-        <li>Personality Theory (...)</li>
+        <li><a href="/articles/personality-theory">Personality Theory</a> (...)</li>
         <ul>
           <li>Enneagram</li>
           <li>16Personalities (former)(STAY AWAY from this website btw)</li>
@@ -109,6 +113,7 @@
           <li>(I'm at the point where I'm not sure if that's true)</li>
         </ul>
         <li>I have 500+ hours in Animal Jam</li>
+        <li>I have a unibrow</li>
       </ul></div>
       </td>
       </table>

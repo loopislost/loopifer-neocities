@@ -92,7 +92,7 @@ const headerEl = `
         <div><span class="dropclick">blogs</span>
           <div id="blogs" class="dropdown-content">
           <a href="/bookblog">books</a><br>
-          <a href="/personalblog">personal</a>
+          <a href="/miniblog">mini</a>
         </div>
       </div> 
       </li>
