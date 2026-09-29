@@ -48,7 +48,6 @@ button:hover {
 display: flex;
 background-color: orange;
 min-height: 10vh;
-padding: 0px;
 
 }
 .container {
@@ -57,7 +56,6 @@ padding: 0px;
   background: linear-gradient(lightyellow,lightblue);
   border-radius: 5px;
   margin: 10px auto;
-  padding: 0;
   flex-wrap: wrap;
   /*justify-content: center;*/
 }
@@ -80,8 +78,8 @@ padding: 2px 2px;
 box-shadow: 0 2px 2px rgba(50,30,15,.5);
 font-size: 18px;
 }
-.box1:hover {
-  transform: scale(1.005);
+.box1:hover h1{
+  transform: scale(1.05);
 }
 a {
   color: rgb(194, 52, 0);
