@@ -26,7 +26,7 @@
     .box1 {
       flex-basis: 100%;
       max-width:80%;
-      margin: 6px 0;
+      margin: 6px auto;
       padding:10px;
     }
     .scrollbox {
@@ -36,6 +36,7 @@
     @media screen and (width < 600px) {
       .gridbox {
         display:flex;
+        flex-direction: column;
       }
       td {
         display: flex;

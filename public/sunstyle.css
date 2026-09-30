@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   font-family: courier, sans-serif, monospace;
   font-size: 20px;
-  max-width: 1500px;
+  max-width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
 }

@@ -9,11 +9,12 @@
     <style>
     .container {
         justify-content: center;
+        padding: 10px;
     }
     table {
         border-spacing:5px;
-        max-width:1200px;
-        word-wrap: break-word;
+        max-width:1100px;
+        overflow-x:auto;
     }
     tr:nth-child(even) {
         background-color: rgba(111, 165, 165, .5);
@@ -21,6 +22,9 @@
     }
     h1 {
         width:100%;
+    }
+    div.tablecontainer {
+        overflow-x:auto;
     }
 
     </style>
@@ -33,6 +37,7 @@
         Go to my <a href="/bookblog">Book Blog</a> to get more specifics on my thoughts!
         </p>
         <h1 style="width:100%;">Ratings Table</h1><br>
+        <div class="tablecontainer">
     <table>
 <tr>
 <th>Date</th><th>MediaType</th><th>Title</th><th>Author/Creator</th><th>Rating</th>
@@ -106,7 +111,9 @@
 <td>Date Unknown</td><td>Show</td><td>Steven Universe</td><td></td><td>5</td>
 </tr><tr>
 <td>Date Unknown</td><td>Album</td><td>You Seem Pretty Sad For A Girl So In Love</td><td>Olivia Rodrigo</td><td>7</td>
-</tr></table>
+</tr>
+    </table>
+    </div>
 </div>
 <script src="/seasoncolors.js"></script><script src="/layout.js"></script>
 </body>

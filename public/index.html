@@ -25,11 +25,23 @@
       border: 2px solid orangered;
       font-size: 15px;
       width: 300px;
+      min-height:50px;
       display:inline-block;
       word-break: break-all;
       overflow-y: scroll;
       text-align: left;
     }
+    .mobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    @media screen and (max-width:600px){
+      .mobile {
+        flex-direction: column;
+      }
+    }
+
     </style>
   </head>
   <body>
@@ -38,7 +50,7 @@
       <div style="padding:0px;background:rgba(0,0,0,0)">
         <img src="/pics/Loop snow transparent.png" width="400px" alt="Is it Summer yet?(Loop in the Snow)" style="float: left;">
       </div>
-      <div class="box1" style="flex-basis:45%;word-wrap:break-word;max-width: 83%;">
+      <div class="box1" style="flex-basis:45%;word-wrap:break-word;">
         <h1 style="line-height:6px;">WELCOME...</h1>
         <p> This website is made using <b>VSCode</b>! Site primarily tested on <b>Firefox</b> on pc and <b>Brave</b> on mobile. If there are any issues, PLEASE drop me a comment on my <a href="loopifer.atabook.org">guestbook</a>!</p>
         <p>All art on here is by me unless stated otherwise!</p>
@@ -69,8 +81,8 @@
               <b>&#128218Book:</b><br>Children of Dune -- Frank Herbert<br><b>&#127926Song:</b><br> "Biggering (Original Demo)" -- The Lorax</p>
         </div>
         <div class="box1" style="flex-basis:175px;height:150px;overflow:scroll;">
-          <p style="font-size:25px;line-height:4px;"><h1>Status</h1></p>
-          <p style="font-size:20px;">"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain."</p>
+          <h1>Status</h1>
+          <p>"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain."</p>
         </div>
       </div>
       <div class="container" style="background:rgba(0,0,0,0)">
@@ -97,8 +109,8 @@
       </div>
     </div>
     </div>
-    <div class="box1" style="display:flex;flex-direction:row;justify-content:center;">
-      <div style="height:300px;overflow:scroll;margin: 0 15px;">
+    <div class="box1 mobile">
+      <div style="height:295px;overflow:scroll;margin: 5px 15px;">
         <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/t:HDYY-0DS59h2_iZCTlTLuA/824416397095501824/v2" data-did="e113ea53e42574bf94d7783968de674adaf80535" ><a href="https://www.tumblr.com/lostifer/824416397095501824/i-was-looking-through-some-old-art-and-found-this">https://www.tumblr.com/lostifer/824416397095501824/i-was-looking-through-some-old-art-and-found-this</a></div><script async src="https://assets.tumblr.com/post.js?_v=2e3257777411face7e6785c8941f968f"></script>
       </div>
       <iframe src="https://loopifer.atabook.org/" title="Guestbook" style="min-width:45%;height:300px;"></iframe>
