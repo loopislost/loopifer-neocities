@@ -88,6 +88,7 @@ const headerEl = `
       <li><a href="/index">home</a></li>
       <li><a href="/about">about</a></li>
       <li><a href="/site-map">site_map</a></li>
+      <li><a href="/neighbors">neighbors</a></li>
       <li class="dropdown" onclick="listToggle('blogs')"> 
         <div><span class="dropclick">blogs</span>
           <div id="blogs" class="dropdown-content">
@@ -101,8 +102,8 @@ const headerEl = `
         <div><span class="dropclick">art</span>
           <div id="art" class="dropdown-content">
           <a href="/gallery">gallery</a><br>
-          <a href="/oc-lore">OC page</a>
-          <a href="/commission-info>commissions</a>
+          <a href="/oc-lore">OC info</a><br>
+          <a href="/commission-info">commissions</a>
         </div>
       </li>
       <li class="dropdown" onclick="listToggle('other')">
