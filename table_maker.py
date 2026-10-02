@@ -1,10 +1,10 @@
 
-def txt_to_csv():
+def extract_txt(filename):
 
     lst = []
     extract = []
 
-    with open("public/txt_csv/bookreviews.txt", 'r') as myfile:
+    with open(filename) as myfile:
         lst = myfile.readlines()
         for i in range(len(lst)):
             if lst[i][0:3] == '#!D':
@@ -12,22 +12,24 @@ def txt_to_csv():
                 type_ = lst[i+1][7:].strip()
                 title = lst[i+2][8:].strip()
                 author = lst[i+3][9:].strip()
-                rating = lst[i+4][9:].strip()
+                rating = lst[i+4][9:-4].strip()
                 extract.append(f'{date_},{type_},{title},{author},{rating}')
-    #print(extract)
+    return extract
+
+def print_to_csv(extracted):
     with open("public/txt_csv/outfile.csv", "w") as outfile:
-        for line in extract:
+        for line in extracted:
             outfile.write(line + '\n')
 
 def csv_to_html():
 
     lst = []
 
-    with open("/home/loop/SAVE THIS PLEASE/loopifer-neocities/public/txt_csv/bookreview_table.csv", 'r') as myfile:
+    with open("public/txt_csv/outfile.csv", 'r') as myfile:
         for line in myfile:
             row = line.strip().split(',')
             lst.append(row)
-    print(lst)
+    #print(lst)
 
     with open("/home/loop/SAVE THIS PLEASE/loopifer-neocities/public/txt_csv/table_out.txt", 'w') as myfile:
         myfile.write("<table>\n")
@@ -43,6 +45,9 @@ def csv_to_html():
                 myfile.write(string)
             myfile.write("</tr>")
         myfile.write("\n</table>")
-#txt_to_csv()
 
-csv_to_html()
+if __name__ == "__main__":
+    txt = ["Date,MediaType,Title,Author/Creator,Rating"]    
+    txt += extract_txt("public/txt_csv/bookreviews.txt") + extract_txt("public/txt_csv/more reviews.txt")
+    print_to_csv(txt)
+    csv_to_html()

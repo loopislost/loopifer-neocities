@@ -1,20 +1,35 @@
-Oct 1 2026,Book,Children of Dune,Frank Herbert,7/10
-Sept 19 2026,Book,A Hat Full of Sky,Terry Pratchett,7/10
-Sept 15 2026,Book,Dune: Messiah,Frank Herbert,7/10
-Sept 11 2026,Book,Frankenstein: the Modern Prometheus,Mary Shelley,6/10
-Sept 11 2026,Book,The Wee Free Men,Terry Pratchett,6/10
-Sept 2 2026,Book,Speaker for the Dead,Orson Scott Card,9/10
-Sept 2 2026,Book,Remain,Nicholas Sparks,3/10
-Aug 12 2026,Book,The Monsters We Make: Murder; Obsession; and the Rise of Criminal Profiling,Rachel Corbett,7/10
-Aug 12 2026,Book,Wintersmith,Terry Pratchett,7/10
-Aug 12 2026,Graphic Novel,I Love Amy,Unni,3/10
-Aug 9 2026,Graphic Novel,Demon in the Wood,Leigh Bardugo and Dani Pendergast,7/10
-Aug 9 2026,Book,Tiffany Aching's Guide to Being a Witch,Rhianna Pratchett; Gabrielle Kent; Paul Kidby,5/10
-Aug 9 2026,Book,Recitaf,Toni Morrison,4/10
-Aug 9 2026,Book,Dune,Frank Herbert,8/10
-Aug 9 2026,Graphic Novel,Nimona,N.D. Stevenson,6/10
-Aug 8 2026,Book,Not Alone,Sarah Jackson,4/10
-Aug 8 2026,Graphic Novel,Pixels of You,Ananth Hirsh; Yuko Ota; J.R. Doyle,8/10
-Unknown,Book,Dragonwatch,Brandon Mull,4/10
-Unknown,Graphic Novel,Thief of the Heights,Son M.; Robert Yao,5/10
-Unknown,Book,Five Kingdoms: Sky Raiders,Brandon Mull,4/10
+Date,MediaType,Title,Author/Creator,Rating
+Oct 1 2026,Book,Children of Dune,Frank Herbert,7
+Sept 19 2026,Book,A Hat Full of Sky,Terry Pratchett,7
+Sept 15 2026,Book,Dune: Messiah,Frank Herbert,7
+Sept 11 2026,Book,Frankenstein: the Modern Prometheus,Mary Shelley,6
+Sept 11 2026,Book,The Wee Free Men,Terry Pratchett,6
+Sept 2 2026,Book,Speaker for the Dead,Orson Scott Card,9
+Sept 2 2026,Book,Remain,Nicholas Sparks,3
+Aug 12 2026,Book,The Monsters We Make: Murder; Obsession; and the Rise of Criminal Profiling,Rachel Corbett,7
+Aug 12 2026,Book,Wintersmith,Terry Pratchett,7
+Aug 12 2026,Graphic Novel,I Love Amy,Unni,3
+Aug 9 2026,Graphic Novel,Demon in the Wood,Leigh Bardugo and Dani Pendergast,7
+Aug 9 2026,Book,Tiffany Aching's Guide to Being a Witch,Rhianna Pratchett; Gabrielle Kent; Paul Kidby,5
+Aug 9 2026,Book,Recitaf,Toni Morrison,4
+Aug 9 2026,Book,Dune,Frank Herbert,8
+Aug 9 2026,Graphic Novel,Nimona,N.D. Stevenson,6
+Aug 8 2026,Book,Not Alone,Sarah Jackson,4
+Aug 8 2026,Graphic Novel,Pixels of You,Ananth Hirsh; Yuko Ota; J.R. Doyle,8
+Unknown,Book,Dragonwatch,Brandon Mull,4
+Unknown,Graphic Novel,Thief of the Heights,Son M.; Robert Yao,5
+Unknown,Book,Five Kingdoms: Sky Raiders,Brandon Mull,4
+Sept 22 2026,Show,Meta Runners,Blank,3
+Sept 22 2026,Show,Murder Drones,Liam Vickers,4
+Sept 22 2026,Show,Cowboy Bebop,Blank,5
+Sept 22 2026,Show,The Amazing Digital Circus,Gooseworx,8
+Sept 22 2026,Show,Andor,Blank,9
+Sept 21 2026,Film,The Stepford Wives (1975),Blank,5
+Sept 15 2026,Musical,Nerdy Prudes Must Die,StarKid,9
+Sept 15 2026,Musical,Black Friday,StarKid,1
+Sept 15 2026,Show,Twisted,StarKid,7
+Sept 15 2026,Film,Nimona,Blank,6
+Sept 15 2026,Musical,The Guy Who Didn't Like Musicals (2018),StarKid,7
+Sept 15 2026,Show,Breaking Bad,Blank,7
+Sept 15 2026,Show,Steven Universe,Blank,5
+Sept 15 2026,Album,You Seem Pretty Sad For A Girl So In Love,Olivia Rodrigo,7

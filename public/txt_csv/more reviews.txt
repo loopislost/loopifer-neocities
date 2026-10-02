@@ -2,7 +2,12 @@ _________________________
 
 Sept 22 2026
 _________________________
-Meta Runners - 3/10 (watched...a couple years ago?)
+#!Date: Sept 22 2026
+#!Type: Show
+#!Title: Meta Runners
+#!Author: Blank
+#!Rating: 3/10
+(watched...a couple years ago?)
 
 The first season is impressively bad. By the third it actually gets decent? I started finding some of the jokes funny and the characters a lot more charming. I'd probably rate it a solid 5/10. The improvement over the course of this show is genuinely inspiring. 
 
@@ -13,26 +18,46 @@ If anything stuck with me from this show, it's the Sea of Thieves rippoff game f
 In conclusion, don't watch this show. Season 3 is not good enough to counterbalance the dredgery of the first two.
 
 _________________________
-Murder Drones - 4/10 (rewatched spring 2026)
+#!Date: Sept 22 2026
+#!Type: Show
+#!Title: Murder Drones
+#!Author: Liam Vickers
+#!Rating: 4/10
+(rewatched spring 2026)
 
 It pains me to rate this one a 4 because I was obsessed with it while it was still coming out. I joined the fandom when episode 5 released but as the show came to a close it became increasingly clear how messy and unplanned it was. A lot of interesting ideas and plotlines were introduced, but the end of the series fails to resolve it in a satisfying way. 
 
 After rewatching it, the flaws in character writing are much harder to ignore. N and Uzi represent cute and funny tropes, but they fail to become more than that. 
 
 _________________________
-Cowboy Bebop - 5/10 (watched spring 2026)
+#!Date: Sept 22 2026
+#!Type: Show
+#!Title: Cowboy Bebop
+#!Author: Blank
+#!Rating: 5/10
+(watched spring 2026)
 
 I know this anime is beloved but it didn't click with me. The worldbuilding is cool, and the bones of good characters are there but I don't think the show fully understands how to flesh those characters out. The overarching plot feels very disconnected from the rest of the show and the finale left me confused.
 
 _________________________
-The Amazing Digital Circus - 8/10 (watched/finished summer 2026)
+#!Date: Sept 22 2026
+#!Type: Show
+#!Title: The Amazing Digital Circus
+#!Author: Gooseworx
+#!Rating: 8/10
+(watched/finished summer 2026)
 
 A 7/10 would be a much safer rating and I'll probably regret this later. I don't know, I just really like it. The dialogue is corny as hell but this is by far the best Glitch show out (that's not (currently) just a pilot) (I haven't watched Sunset Paradise either don't come at me).
 
 In my humble opinion this is the best flavor of character driven show. I feel like Gooseworx understands her characters and had specific visions and arcs for all of them in mind. Yes, it's rough around the edges, probably too much to deserve an 8. But it struck a chord with me personally (jax's storyline in the finale especially) and My opinion is the only thing that matters here so ha!
 
 _________________________
-Andor - 9/10 (spring 2026)
+#!Date: Sept 22 2026
+#!Type: Show
+#!Title: Andor
+#!Author: Blank
+#!Rating: 9/10
+(spring 2026)
 
 This one gets glazed constantly and for good reason. I don't think I have anything unique to say about it so go watch a YouTube video essay to get a more in depth opinion. If you're older than... 16 or so I would definitely recommend though!
 
@@ -40,7 +65,11 @@ _________________________
 
 Sept 21 2026
 _________________________
-The Stepford Wives (1975) - 5/10
+#!Date: Sept 21 2026
+#!Type: Film
+#!Title: The Stepford Wives (1975)
+#!Author: Blank
+#!Rating: 5/10
 
 A five might seem kind of harsh for this one, and it might be. It's a decent watch, has some modern day relevance. I watched it for school on YouTube at 360p so that might be affecting my enjoyment of it. It's hard to see more subtleties in the acting when they're all incredibly low quality.
 
@@ -51,8 +80,12 @@ _________________________
 
 Sept 15 2026
 _________________________
-
-Nerdy Prudes Must Die - 9/10 (rewatched Fall 2026)
+#!Date: Sept 15 2026
+#!Type: Musical
+#!Title: Nerdy Prudes Must Die
+#!Author: StarKid
+#!Rating: 9/10
+(rewatched Fall 2026)
 
 NPMD is campy in all the best ways. And I liked it better on rewatch?
 All of the characters (except Ruth) have a compelling arc, Grace Chasity and Max Jagerman are superb (and for sure outshine Pete and Steph) but Pete and Steph are still really solid and they make a cute pair. And nearly all of the background characters are also likeable and pretty memorable?
@@ -66,7 +99,12 @@ Oh and the whole Summoning thing with the Lords in Black is strange and a bit ou
 While Twisted is objectively better story-wise, NPMD is a guilty pleasure. After the trainwreck that was Black Friday, this was such a pallete cleanser. It only lightly references the other Hatchetfield stuff, and it's a great standalone story. Watch it! This one's a gateway drug to the rest of StarKid.
 
 _________________________
-Black Friday - 1/10 (rewatched Fall 2026)
+#!Date: Sept 15 2026
+#!Type: Musical
+#!Title: Black Friday
+#!Author: StarKid
+#!Rating: 1/10
+(rewatched Fall 2026)
 
 (This review is basically a vent, not sure how much other people will get out of this one. Feel free to skip)
 
@@ -96,6 +134,11 @@ _________________________
 
 Before (Indeterminate time)
 _________________________
+#!Date: Sept 15 2026
+#!Type: Show
+#!Title: Twisted
+#!Author: StarKid
+#!Rating: 7/10
 
 Twisted - 7/10 (rewatched fall 2026)
 
@@ -106,28 +149,50 @@ After rewatching it AGAIN this year I don't think it was *quite* as good as I or
 I've seen this one called StarKid's magnum opus and that assessment is 200% right. The humor is gold, the plot has a deeply emotional core, Aladdin is the biggest scumbag I've seen, overall amazing. The Princess is one of the worse characters but by the end even she gets to shine. The opening song is iconic. If you like raunchy comedy, or if you like heartfelt familial relationships, please watch it I *promise* it will win you over.
 
 _________________________
-Nimona (the movie) - 6/10
+#!Date: Sept 15 2026
+#!Type: Film
+#!Title: Nimona
+#!Author: Blank
+#!Rating: 6/10
 
 The humor feels very geared toward kids and feels quite cringe at times. I like the story and characters overall.
 Nimona as a character gains so much depth throughout the movie- she starts out being very annoying but her relationship development with Balister is adorable. And her story gets very serious in the movie. The movie improves on a lot of aspects of the comics (if I remember correctly, Nimona does a lot more explicit murder) that makes it easier to suspend disbelief. It isn't a very one-to-one adaptation, but you can see where certain scenes could have drawn inspiration from the comic. IDK it's not the most amazing thing ever but it's a good watch.
 
 _________________________
-The Guy Who Didn't Like Musicals (2018 ver.) - 7/10 (rewatched fall 2026)
+#!Date: Sept 15 2026
+#!Type: Musical
+#!Title: The Guy Who Didn't Like Musicals (2018) 
+#!Author: StarKid
+#!Rating: 7/10
+(rewatched fall 2026)
 
 Fuck yeah. This one is an all-timer. Still ranks as only my... third favorite StarKid Musical? Paul and the other characters (maybe other than Bill and Charlotte) are fairly shallow and it's ALMOST not enough to carry a musical. I feel like the 2nd half is a bit slow for my liking, adore the ending though. 
 
 _________________________
+#!Date: Sept 15 2026
+#!Type: Show
+#!Title: Breaking Bad
+#!Author: Blank
+#!Rating: 7/10
 Breaking Bad - 7/10 (watched spring 2026)
 
 It's good don't get me wrong but Holy Shit I hate Walter so much by like the 3rd season. I also don't think I'm cut out for longer shows tbh. At some point they feel like chores to get through.
 
 _________________________
-Steven Universe - 5/10
+#!Date: Sept 15 2026
+#!Type: Show
+#!Title: Steven Universe
+#!Author: Blank
+#!Rating: 5/10
 
 This show does a lot of things well and then in other aspects it completely baffles me. I don't think I have much new to add to this discussion. Love Like You is a great song, Season 6 should have been a space pirate epic, ummmm umm ummm that's about it. Feel free to watch it if you want to subject yourself to a frustrating amount of filler. 
 
 _________________________
-You Seem Pretty Sad For A Girl So In Love - 7/10
+#!Date: Sept 15 2026
+#!Type: Album
+#!Title: You Seem Pretty Sad For A Girl So In Love
+#!Author: Olivia Rodrigo
+#!Rating: 7/10
 
 I ended up liking a lot of songs off this one despite myself. SOUR and GUTS were genuinely fascinating albums to me because they feel like they were written to be relatable but when I hear songs off them I feel extremely out of my depth. I like to wonder if its normal to experience that reaction to a breakup.
 
