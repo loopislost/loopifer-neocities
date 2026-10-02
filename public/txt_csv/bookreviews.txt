@@ -1,8 +1,27 @@
 _____________________________________________________
 
+>>>>>Oct 1 2026
+_____________________________________________________
+#!Date: Oct 1 2026
+#!Type: Book
+#!Title: Children of Dune
+#!Author: Frank Herbert
+#!Rating: 7/10
+
+I don't think it would be right to rate this one lower than Dune: Messiah, but the fatigue of reading this series is definitely settling in. This one was generally a better experience than Dune: Messiah but it was double that book's length so that made it a bit more painful. I will be taking a long break from Dune after finishing this one. 
+
+I think Dune desperately wants to be a critique of religious fascism but fails to do so because All of the important characters are characters with great political significance that wield great power. We get to see Alia's hypocrisy and the dangers of religious fanatacism very clearly in this book, but without the perspective of the common man it's difficult to really see the negative impacts of Paul and Alia's rule. 
+
+There are some plotlines that I did enjoy, the tragedy of Alia mainly, and this book's usage of Paul is much better than in Dune: Messiah, where he kind of wore me out as a main POV character. 
+_____________________________________________________
+
 >>>>>Sept 19 2026
 _____________________________________________________
-A Hat Full of Sky - 7/10
+#!Date: Sept 19 2026
+#!Type: Book
+#!Title: A Hat Full of Sky
+#!Author: Terry Pratchett
+#!Rating: 7/10
 
 I enjoyed this one quite a lot more than the first. I have a feeling the rest of the series will rank around a 7/10. The pacing in A Hat Full of Sky feels a lot better than the first and there are a handful of very funny memorable moments. I liked that we got a lot more witch characters (no offense to the Feegles) but the witches all tend to be more of actual characters rather than just comedic relief. I also think the stakes were much more interesting and the resolution was farrr easier to follow than the first book.
 
@@ -11,7 +30,11 @@ _____________________________________________________
 
 >>>>>Sept 15 2026
 _____________________________________________________
-Dune: Messiah - 7/10
+#!Date: Sept 15 2026
+#!Type: Book
+#!Title: Dune: Messiah
+#!Author: Frank Herbert
+#!Rating: 7/10
 
 This one is a pretty big departure from the first book. I don't think it's bad, I like what it's going for, but I can see why the reception to the sequel was worse than the first. 
 
@@ -26,11 +49,19 @@ _____________________________________________________
 
 >>>>>Sept 11 2026
 _____________________________________________________
-Frankenstein: the Modern Prometheus - 6/10
+#!Date: Sept 11 2026
+#!Type: Book
+#!Title: Frankenstein: the Modern Prometheus
+#!Author: Mary Shelley
+#!Rating: 6/10
 
 I personally would not choose to read this for fun, but it is a classic with plenty of modern cultural relevance. If you can get past the older styled language (it's actually not That hard to read if you're patient) then it's a fairly interesting story. I personally struggle to detect when older authors are being subtle and tend to take everything they write at face value, but Frankenstein deliberately seems to poke fun at some of its characters (mainly Victor), many of which are egotistical assholes and unreliable narrators. Under the layers of characterization, you can grasp at the message Mary Shelley is actually trying to convey. I personally prefer books where the entertainment value is a lot higher and I have a personal hatred for egotistical main characters (looking at you Walter White) but uhhh yeah. Watch OSP Red's summary of it, she's good at making classics entertaining.
 _____________________________________________________
-The Wee Free Men - 6/10
+#!Date: Sept 11 2026
+#!Type: Book
+#!Title: The Wee Free Men
+#!Author: Terry Pratchett
+#!Rating: 6/10
 
 It's quite fortunate that I read Wintersmith before this one, because I liked Wintersmith quite a bit more. It's not a bad book by any means (I still like Terry Pratchett's humor) and Tiffany Aching is full of personality (one of my favorite child protagonists by far). It has occurred to me that the Tiffany Aching series vaguely reminds me of Percy Jackson.
 Also I do quite like the way the book presents Granny Aching and her relationship with Tiffany.
@@ -42,21 +73,33 @@ _____________________________________________________
 
 >>>>>Sept 2 2026
 _____________________________________________________
-Speaker for the Dead - 9/10
+#!Date: Sept 2 2026
+#!Type: Book
+#!Title: Speaker for the Dead
+#!Author: Orson Scott Card
+#!Rating: 9/10
 
 I remember liking Ender's Game a lot as a child so this one shouldn't be a big surprise. However, Speaker for the Dead is very different from Ender's Game. After a 3,000 year time skip, the world looks completely different from the world of the first book, with humanity having colonized across space, Ender having started a new semi-religion, and humanity's outlook on the "extinction" of the buggers having completely flipped. Ender and Valentine are still around and not much older than they were due to relativistic travel shenanigans and there's a whole host of new characters. I really liked the way that the humans are written and explored in this book, and an adult Ender that is not being psychologically tortured by the military and who has a purpose and a mission that he actually believes in is very nice. 
 
 If you have read Ender's Game (and liked it, probably) I recommend this, and even if you haven't, Speaker for the Dead works well enough without it. (Or that's what Orson Scott Card claims at the very least. I agree with him.) 
 
 _____________________________________________________
-Remain - 3/10
+#!Date: Sept 2 2026
+#!Type: Book
+#!Title: Remain
+#!Author: Nicholas Sparks
+#!Rating: 3/10
 
 It's not a bad book by any means. If you like lighthearted romance, or simple ghost mysteries, you will probably like this one. I wouldn't even say I disliked it. It was a perfectly serviceable romantic supernatural story. The plot twist at the end was kind of meh, but otherwise its a fairly straightforward bittersweet straight romance. Guy falls in love with pretty girl and they can't be together forever blah blah blah. I fear that I have stumbled across a type of books that are fully mediocre to me specifically. If you like this book, more power to you. As for me, I will probably avoid books like this in the future.
 _____________________________________________________
 
 >>>>>Aug 22 2026
 _____________________________________________________
-The Monsters We Make: Murder, Obsession, and the Rise of Criminal Profiling - 7/10
+#!Date: Aug 12 2026
+#!Type: Book
+#!Title: The Monsters We Make: Murder; Obsession; and the Rise of Criminal Profiling 
+#!Author: Rachel Corbett
+#!Rating: 7/10
 
 I'm always happy when I find myself enjoying a random pick from the library shelves. As the first nonfiction/essay type book I've reviewed here (as well as the first I've read in a while), take all of this with a grain of salt, as I'm not as well versed in this genre. It did feel a lot like Youtube video essays I've seen in the past (and I would definitely recommend if you're a previous breadtube enjoyer). 
 
@@ -67,40 +110,68 @@ _____________________________________________________
 
 >>>>>Aug 12 2026
 _____________________________________________________
-Wintersmith - 7/10
+#!Date: Aug 12 2026
+#!Type: Book
+#!Title: Wintersmith
+#!Author: Terry Pratchett
+#!Rating: 7/10
 
 I enjoyed this one a lot, definitely my favorite child-friendly/child appropriate book I've read this summer. It feels very whimsical and joyful and while it does have an overarching plot around the "big bad" it also spends a lot of time building up their world, Tiffany's relationships, and the intricacies of witch politics and customs. The world feels very alive and interconnected and fantastical in a way that I miss from my childhood, and it doesn't feel like it talks down to its reader. Definitely recommend! It's the third chronological book in the Tiffany Aching Saga though, so be forewarned.
 
 I also knocked down my rating for Tiffany Aching's Guide To Being a Witch because it feels like it just rehashes a lot of the concepts from here without adding much to it.  
 
 _____________________________________________________
-I Love Amy - 3/10
+#!Date: Aug 12 2026
+#!Type: Graphic Novel
+#!Title: I Love Amy
+#!Author: Unni
+#!Rating: 3/10
 
 Strange. I wasn't fully locked in when reading so maybe I missed stuff. I guess you could find it cute but I am slightly confused and I cannot say I support the yuri :( Why does she kidnap people and everyone's just lowkey okay with it????
 _____________________________________________________
 
 >>>>>AUG 9 2026
 _____________________________________________________
-Demon in the Wood - 7/10
+#!Date: Aug 9 2026
+#!Type: Graphic Novel
+#!Title: Demon in the Wood
+#!Author: Leigh Bardugo and Dani Pendergast
+#!Rating: 7/10
 
 Short but devastating. The story it delivers is brutally nihilist and does make me curious about the rest of the world and story. My only complaint is that the art was kind of jank and I had no clue what expression characters were trying to make sometimes.
 
 _____________________________________________________
-Tiffany Aching’s Guide To Being a Witch - 5/10
+#!Date: Aug 9 2026
+#!Type: Book
+#!Title: Tiffany Aching's Guide to Being a Witch
+#!Author: Rhianna Pratchett; Gabrielle Kent; Paul Kidby
+#!Rating: 5/10
 
 Definitely a weird introduction to the series. It’s more of an encyclopedia for witches than... an actual book. I admit it was difficult to get into it initially because of it. However, as I started to get farther in the world started taking shape and I felt more drawn in to their customs and lives. It ends with a sweet message. Also, the side notes written by other witches (specifically Nanny Ogg) were really entertaining once I caught on to their personalities + some of the jokes. I am excited to get into the actual series!
 
 _____________________________________________________
-Recitaf - 4/10
+#!Date: Aug 9 2026
+#!Type: Book
+#!Title: Recitaf
+#!Author: Toni Morrison
+#!Rating: 4/10
 
 Short read. Has the capacity to be really deep if you think about it a lot I'm sure (as evidenced by the forward that's about the same length as the actual book). It just didn't have that huge draw for me that Bluest Eye did, although it would not be fair to expect it to.
 _____________________________________________________
-Dune - 8/10
+#!Date: Aug 9 2026
+#!Type: Book
+#!Title: Dune
+#!Author: Frank Herbert
+#!Rating: 8/10
 
 Anyway, I highly recommend, I love the political intrigue and the narrative and the way it's written. And the little blurbs at the beginning are cool because of how added context makes them slowly make more and more sense throughout the book until you get a reveal at the very end. I get why this is a scifi staple. I'll get my hands on the sequels at some point...hopefully......
 
 _____________________________________________________
-Nimona -6/10
+#!Date: Aug 9 2026
+#!Type: Graphic Novel
+#!Title: Nimona
+#!Author: N.D. Stevenson
+#!Rating: 6/10
 
 Sidenote: I did see the movie several years ago and enjoyed that one quite a bit
 The comic is very charming. You'll probably like it if you liked the movie. The movie is able to flesh things out and do a lot of things better, but the comic doesn't feel bad at all. It's like a cuter younger brother to the movie. (if that makes any sense?)
@@ -110,7 +181,11 @@ _____________________________________________________
 >>>>>Aug 8 2026
 
 _____________________________________________________
-Not Alone - 4/10
+#!Date: Aug 8 2026
+#!Type: Book
+#!Title: Not Alone
+#!Author: Sarah Jackson
+#!Rating: 4/10
 
 Hooooo boy this one was a ride. My main criticisms-- the pacing is soooo slow sometimes. It drags so much in the beginning and towards the middle-end of the story. I think it took maybe 60 pages for... anything interesting to start happening? Don’t quote me on that. 
 
@@ -127,23 +202,39 @@ The casual misogyny and rapey-ness displayed by most of the male characters feel
 The whole book is very serious and gritty and I definitely wouldn’t recommend it if you just want some lighthearted fun. If you’re willing to sit through a lot of depressing, somewhat repetitive writing you’ll find an emotional core that almost makes it worth it.
 
 _____________________________________________________
-Pixels of You - 8/10
+#!Date: Aug 8 2026
+#!Type: Graphic Novel
+#!Title: Pixels of You
+#!Author: Ananth Hirsh; Yuko Ota; J.R. Doyle
+#!Rating: 8/10
 
 I honestly really liked this one. The focus of the story stays pretty narrow in scope as we explore the relationship between two girls. Enemies to friends to lovers but they're very sweet together. I'm not entirely sure how or if the story is meant to support the clearly anti-AI stance that is stated in small asides throughout the comic but I think the story works best if you don't take the robo girl's existence to be any sort of metaphor for real life AI. The focus of the story seems to be more on connecting with people that have completely different life experiences and coming to understand your common ground and accept those differences. 
 The story can be a little confusing at first but it never felt frustratingly so, and a reread made a lot of things clearer to me (the photo show at the beginning and how it impacts the robo girl)
 Kind of upsetting that it just ended with the kiss-- I wanted more! But that makes the most sense for the story I suppose. 
 
 _____________________________________________________
-Dragonwatch 1 - 4/10
+#!Date: Unknown
+#!Type: Book
+#!Title: Dragonwatch
+#!Author: Brandon Mull
+#!Rating: 4/10
 
 Decently entertaining, I would say overall I'm not the biggest fan though. The moment with Kendra at the end when she stands up to the dragon doesn't feel earned from Kendra's end and just happens because it needs to. Seth's portion of the end is a lot more earned and you could say he actually grows and develops somewhat in the book though that might be a stretch. I may just be getting tired of reading books featuring obnoxious middle school aged characters.
 
 _____________________________________________________
-Thief of the Heights - 5/10
+#!Date: Unknown
+#!Type: Graphic Novel
+#!Title: Thief of the Heights 
+#!Author: Son M.; Robert Yao
+#!Rating: 5/10
 
 An alright read. Goes pretty fast like most comics, the fast pacing is definitely to the detriment of the story in this case. The villains are cartoonishly evil in such an obvious way that undermines the weight of everything. If it had more time to flesh the society out and make it seem like the characters were even slightly tempted by a lavish ignorant lifestyle maybe the conflict would be more interesting and the societal commentary would be more compelling. I found the relationship between the main characters to be charming at least, even if I'm still somewhat confused on the whole overthrowing the government plan. 
 
 _____________________________________________________
-Five Kingdoms (Sky Raiders) - 4/10
+#!Date: Unknown
+#!Type: Book
+#!Title: Five Kingdoms: Sky Raiders
+#!Author: Brandon Mull
+#!Rating: 4/10
 
 The protagonist is your average obnoxious sixth grader. The characters and their relationships to each other aren't particularly compelling. However, the world building is genuinely fascinating and fun to contemplate. I enjoyed the various settings the characters found themselves in. The lore behind the bigger scheme with the king is delivered mainly through straightforward monologues which is not particularly interesting but it is still a good enough hook to maintain interests in further installations/the larger lore of the series.
