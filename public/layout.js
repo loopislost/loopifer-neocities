@@ -110,10 +110,9 @@ const headerEl = `
         <div><span class="dropclick">other</span>
           <div id="other" class="dropdown-content">
           <a href="/workshop">testing page</a><br>
-          <a href="/minecraft-shrine">minecraft screens</a>
+          <a href="/articles/minecraft-shrine">minecraft screens</a>
         </div>
       </li> 
-      <li><a href="/neighbors" >neighbors</a></li>
       <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">guestbook📝</a></li>
     </ul>
 	</header>
