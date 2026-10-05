@@ -110,7 +110,7 @@ const headerEl = `
         <div><span class="dropclick">other</span>
           <div id="other" class="dropdown-content">
           <a href="/workshop">testing page</a><br>
-          <a href="/minecraft-shrine>minecraft screens</a>
+          <a href="/minecraft-shrine">minecraft screens</a>
         </div>
       </li> 
       <li><a href="/neighbors" >neighbors</a></li>
