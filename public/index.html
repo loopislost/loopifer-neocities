@@ -1,120 +1,124 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Loopifer's Nook</title>
-    <link rel="icon" type="image/svg+xml" href="/pics/favicon.ico">
-    <link rel="stylesheet" href="sunstyle.css">
-   <!--#e600e6 -->
-    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/shiny-pink-spinning-heart-53b2307b-32.css">
-    <style>
-    .tumblr-post.main {
-        max-width: 100%;
-    }
-    .smalltxt {
-      font-size: 20px;
-    }
-    .nohighlight:hover {
-      background-color: rgba(0,0,0,0);
-    }
-    .big:hover {
-      transform: scale(1.05);
-    }
-    textarea {
-      border: 2px solid orangered;
-      font-size: 15px;
-      width: 300px;
-      min-height:50px;
-      display:inline-block;
-      word-break: break-all;
-      overflow-y: scroll;
-      text-align: left;
-    }
-    .mobile {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    @media screen and (max-width:600px){
-      .mobile {
-        flex-direction: column;
-      }
-    }
-
-    </style>
+    <title>Home</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.ico">
+    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1791505170916">
+    <style></style>
   </head>
   <body>
 
-    <div class="container" id="seasonal" style="width: 100%;">
-      <div style="padding:0px;background:rgba(0,0,0,0)">
-        <img src="/pics/Loop snow transparent.png" width="400px" alt="Is it Summer yet?(Loop in the Snow)" style="float: left;">
-      </div>
-      <div class="box1" style="flex-basis:45%;word-wrap:break-word;">
-        <h1 style="line-height:6px;">WELCOME...</h1>
-        <p> This website is made using <b>VSCode</b>! Site primarily tested on <b>Firefox</b> on pc and <b>Brave</b> on mobile. If there are any issues, PLEASE drop me a comment on my <a href="loopifer.atabook.org">guestbook</a>!</p>
-        <p>All art on here is by me unless stated otherwise!</p>
-        <p>If you want to read one person's bad opinions on books, movies, and everything else I can get my grubby hands on, this site is for you. (I also do art if that's more your thing)</p>
-        <p>Maybe check out my <a href="/about">about me</a> or my <a href="/bookblog">book blog</a>?</p>
-        <a  class='nohighlight' href="//clap.fc2.com/post/loopifer/?url=https%3A%2F%2Floopifer.neocities.org&title=Loopifer%27s+Nook" target="_blank" title="Web Clap by FC2"><img class="big" src="//clap.fc2.com/images/button/orange/loopifer?url=https%3A%2F%2Floopifer.neocities.org&amp;lang=en" alt="Web Clap by FC2" style="border:none;" /></a><br>
+    <header>
+    <ul class="topnav" >
+    <li><a href="index">home</a></li>
+    <li><a href="about">about</a></li>
+    <li><a href="site-map">site_map</a></li>
+    <li><a href="neighbors">neighbors</a></li>
+    <li class="dropdown" onclick="listToggle('blogs')"> 
+        <div><span class="dropclick">blogs</span>
+        <div id="blogs" class="dropdown-content">
+        <a href="blogs/bookblog">books</a><br>
+        <a href="blogs/miniblog">mini</a><br>
+        <a href="blogs/blog-hub">article hub</a>
+        </div>
+    </div> 
+    </li>
+    <li class="dropdown" onclick="listToggle('art')">
+        <div><span class="dropclick">art</span>
+        <div id="art" class="dropdown-content">
+        <a href="my/gallery">gallery</a><br>
+        <a href="my/oc-lore">OC info</a><br>
+        <a href="my/commission-info">commissions</a>
+        </div>
+    </li>
+    <li class="dropdown" onclick="listToggle('other')">
+        <div><span class="dropclick">other</span>
+        <div id="other" class="dropdown-content">
+        <a href="workshop">testing page</a><br>
+        <a href="blogs/articles/minecraft-shrine">minecraft screens</a>
+        </div>
+    </li> 
+    <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">guestbook📝</a></li>
+</ul>
+</header>
+
+    <div id="isTimeResponsive" class="flexbox">
+    <div style="background:rgba(0,0,0,0)">
+  <img src="img/Loop snow transparent.png" width="400px" alt="Is it Summer yet?(Loop in the Snow)" style="float: left;">
+    </div>
+    <div class="box1" style="flex-basis:45%;word-wrap:break-word;">
+      <h1 style="line-height:6px;">WELCOME...</h1>
+      <p><b>WARNING!</b> This site is undergoing A LOT of changes right now and things WILL be broken. (10/8/26)</p>
+      <p> This website is made using <b>VSCode</b>! Site primarily tested on <b>Firefox</b> on pc and <b>Brave</b> on mobile. If there are any issues, PLEASE drop me a comment on my <a href="loopifer.atabook.org">guestbook</a>!</p>
+      <p>All art on here is by me unless stated otherwise!</p>
+      <p>If you want to read one person's bad opinions on books, movies, and everything else I can get my grubby hands on, this site is for you. (I also do art if that's more your thing)</p>
+      <p>Maybe check out my <a href="about">about me</a> or my <a href="bookblog">book blog</a>?</p>
+      <a  class='nohighlight' href="//clap.fc2.com/post/loopifer/?url=https%3A%2F%2Floopifer.neocities.org&title=Loopifer%27s+Nook" target="_blank" title="Web Clap by FC2"><img class="big" src="//clap.fc2.com/images/button/orange/loopifer?url=https%3A%2F%2Floopifer.neocities.org&amp;lang=en" alt="Web Clap by FC2" style="border:none;" /></a><br>
+    
+      <a class="nohighlight" href="https://loopifer.neocities.org"><img class="big" src="img/loopifer_button.png" alt="site button"></a> Add my button?
+      <div><textarea>
+        &lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a>
+      </textarea></div>
       
-        <a class="nohighlight" href="https://loopifer.neocities.org"><img class="big" src="/pics/loopifer_button.png" alt="site button"></a> Add my button?
-        <div><textarea>
-          &lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a>
-        </textarea></div>
-        
+    </div>
+    <div style="flex-basis:20px;width:200px">
+      <div class="box1" style="height:300px;overflow:scroll;">
+        <h1>The Latest</h1>
+        <span class="smalltxt"><b>&#127918Game:</b></span>
+          <div class="steambox">>>Steam Last Played<iframe
+            src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=lastplayed"
+            frameborder="0"
+            scrolling="no"
+            width="175"
+            height="30"
+            allowtransparency="true"
+            title="Steam Last Played"
+          ></iframe></div>
+          <p class="smalltxt">
+            <b>&#128218Book:</b><br>I Shall Wear Midnight -- Terry Pratchett<br><b>&#127926Song:</b><br> "Proper Rhythm" (Unbeatable OST) -- peak divide</p>
       </div>
-      <div class="blankbox" style="flex-basis:175px;">
-        <div class="box1" style="flex-basis:175px;height:300px;overflow:scroll;padding-top:0px;">
-          <p style="font-size:25px;"><h1>The Latest</h1></p>
-          <span class="smalltxt"><b>&#127918Game:</b></span>
-            <div class="steambox">>>Steam Last Played<iframe
-              src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=lastplayed"
-              frameborder="0"
-              scrolling="no"
-              width="175"
-              height="30"
-              allowtransparency="true"
-              title="Steam Last Played"
-            ></iframe></div>
-            <p class="smalltxt">
-              <b>&#128218Book:</b><br>I Shall Wear Midnight -- Terry Pratchett<br><b>&#127926Song:</b><br> "Proper Rhythm" (Unbeatable OST) -- peak divide</p>
-        </div>
-        <div class="box1" style="flex-basis:175px;height:150px;overflow:scroll;">
-          <h1>Status</h1>
-          <p>"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain."</p>
-        </div>
-      </div>
-      <div class="container" style="background:rgba(0,0,0,0)">
-        <div class="box1" style="flex-basis:25%;">
-          <p><h1 style="line-height:20px">Under Construction<br><br>🔨🚧</h1></p>
-          <p>Streamlined Blog<br>More Gallery Art!(+ MC screenshots)<br>More Decoration<br>Custom Cursor<br>Webrings?<br>Character Lore page<br>Other site link page</p>
-        </div>
-      <div class="box1" style="flex-basis:40%;">
-        <h1>Fun Box...</h1>
-        <button onclick="setNight()">Night Theme</button>
-        <button onclick="setDawn()">Dawn Theme</button>
-        <button onclick="setDay()">Day Theme</button>
-        <p style="font-size:15px;"><img src="https://i.ibb.co/d0shXhR9/black1.png"  style="cursor: grab" onmouseover="this.src='https://i.ibb.co/WvTqr18x/black2.gif';" onmouseout="this.src='https://i.ibb.co/d0shXhR9/black1.png';"><img src="https://i.ibb.co/93bVZdLj/torbie1.png" style="cursor: grab" onmouseover="this.src='https://i.ibb.co/tpTcp4Pt/torbie2.gif';" onmouseout="this.src='https://i.ibb.co/93bVZdLj/torbie1.png';"><br>(From <a href="https://blazermaze.neocities.org/pixels">Blaze's Cabin</a>) - mouse over!</p>
-        
-        <!--<p>This is my beautiful website. Are you enjoying this so far. Please tell me you're enjoying this so far. Please. I need you to tell me you like this. You like me? Right? Right? Of course you do. Loopifer!</p>
-        -->
-      </div>
-      <div class="box1" style="flex-basis:20%">
-        <h1 style="line-height:20px">(Links)🔗</h1>
-        <p style="font-family:cyberpunk,courier new;font-size:30px;">SOCIALS--<br><a href="https://www.tumblr.com/lostifer">TUMBLR</a><br><a href="https://artfight.net/~Loopislost">ARTFIGHT</a><br><a href="https://www.youtube.com/@loopislost">YOUTUBE</a></p>
-        <ul>
-        <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer" style="color:mediumvioletred">Guestbook 📝</a></li>
-        </ul>
+      <div class="box1" style="flex-basis:175px;height:150px;overflow:scroll;">
+        <h1>Status</h1>
+        <p>Restructuring the backend of the entire site... blegh</p>
       </div>
     </div>
+    <div class="box1" style="flex-basis:25%;">
+      <p><h1 style="line-height:20px">Under Construction<br><br>🔨🚧</h1></p>
+      <p>Streamlined Blog<br>More Gallery Art!(+ MC screenshots)<br>More Decoration<br>Custom Cursor<br>Webrings?<br>Character Lore page<br>Other site link page</p>
     </div>
-    <div class="box1 mobile">
-      <div style="height:295px;overflow:scroll;margin: 5px 15px;">
-        <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/t:HDYY-0DS59h2_iZCTlTLuA/824416397095501824/v2" data-did="e113ea53e42574bf94d7783968de674adaf80535" ><a href="https://www.tumblr.com/lostifer/824416397095501824/i-was-looking-through-some-old-art-and-found-this">https://www.tumblr.com/lostifer/824416397095501824/i-was-looking-through-some-old-art-and-found-this</a></div><script async src="https://assets.tumblr.com/post.js?_v=2e3257777411face7e6785c8941f968f"></script>
-      </div>
-      <iframe src="https://loopifer.atabook.org/" title="Guestbook" style="min-width:45%;height:300px;"></iframe>
+    <div class="box1" style="flex-basis:40%;">
+      <h1>Fun Box...</h1>
+      <button class="pinkbutton" onclick="setNight()">Night Theme</button>
+      <button class="pinkbutton" onclick="setDawn()">Dawn Theme</button>
+      <button class="pinkbutton" onclick="setDay()">Day Theme</button>
+      <p style="font-size:15px;"><img src="https://i.ibb.co/d0shXhR9/black1.png"  style="cursor: grab" onmouseover="this.src='https://i.ibb.co/WvTqr18x/black2.gif';" onmouseout="this.src='https://i.ibb.co/d0shXhR9/black1.png';"><img src="https://i.ibb.co/93bVZdLj/torbie1.png" style="cursor: grab" onmouseover="this.src='https://i.ibb.co/tpTcp4Pt/torbie2.gif';" onmouseout="this.src='https://i.ibb.co/93bVZdLj/torbie1.png';"><br>(From <a href="https://blazermaze.neocities.org/pixels">Blaze's Cabin</a>) - mouse over!</p>
+      
+      <!--<p>This is my beautiful website. Are you enjoying this so far. Please tell me you're enjoying this so far. Please. I need you to tell me you like this. You like me? Right? Right? Of course you do. Loopifer!</p>
+      -->
     </div>
-  <script src="/seasoncolors.js"></script><script src="/layout.js"></script>
+    <div class="box1" style="flex-basis:20%">
+      <h1 style="line-height:20px">(Links)🔗</h1>
+      <p style="font-family:cyberpunk,courier new;font-size:30px;">SOCIALS--<br><a href="https://www.tumblr.com/lostifer">TUMBLR</a><br><a href="https://artfight.net/~Loopislost">ARTFIGHT</a><br><a href="https://www.youtube.com/@loopislost">YOUTUBE</a></p>
+      <ul>
+      <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer" style="color:mediumvioletred">Guestbook 📝</a></li>
+      </ul>
+    </div>
+  <div class="box1">
+    <iframe src="https://loopifer.atabook.org/" title="Guestbook" style="min-width:500px;flex-basis:60%;height:300px;margin:0 auto;"></iframe>
+  </div>
+    </div>
+
+    <footer>
+    <a href="https://petrapixel.neocities.org/about/blinkies" target="_blank">
+    <img src="img/widgets/queercode.png" alt="you're telling me a queer coded this" title="queer-coded"></a>
+    <img src="https://ezrakruger.cc/adbank/a?lang=en&size=468x60" width="468" height="60" alt="banner"> 
+    <iframe src="https://john.citrons.xyz/embed?ref=mondecitronne.com" style="margin-left:auto;display:block;margin-right:auto;margin-bottom:10px;margin-top:21px;max-width:500px;max-height:80px;width:100%;border:none;display:inline;"></iframe>
+</footer>
+    
+
+  <script src="scripts/weather.js?nocache=1791505170916"></script>
   </body>
 </html>

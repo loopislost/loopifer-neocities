@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Art Gallery</title>
+    <link rel="icon" type="image/svg+xml" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../styles/mainstyle.css?nocache=1791505170916">
+    <style>.container { display: flex; flex-wrap: wrap; padding: 0 0px; } .container div { padding: 0px 0px; }
+/* Create four equal columns that sits next to each other */ .column { flex: 20%; max-width: 25%; padding: 0 0px; }
+.column img { margin-top: 8px; vertical-align: middle; }
+img:hover { transform: scale(1.1); }
+/* Responsive layout - makes a two column-layout instead of four columns */ @media screen and (max-width: 800px) { .column { flex: 45%; max-width: 50%; } }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ @media screen and (max-width: 600px) { .column { flex: 100%; max-width: 100%; } }</style>
+  </head>
+  <body>
+
+    <header>
+    <ul class="topnav" >
+    <li><a href="../index">home</a></li>
+    <li><a href="../about">about</a></li>
+    <li><a href="../site-map">site_map</a></li>
+    <li><a href="../neighbors">neighbors</a></li>
+    <li class="dropdown" onclick="listToggle('blogs')"> 
+        <div><span class="dropclick">blogs</span>
+        <div id="blogs" class="dropdown-content">
+        <a href="../blogs/bookblog">books</a><br>
+        <a href="../blogs/miniblog">mini</a><br>
+        <a href="../blogs/blog-hub">article hub</a>
+        </div>
+    </div> 
+    </li>
+    <li class="dropdown" onclick="listToggle('art')">
+        <div><span class="dropclick">art</span>
+        <div id="art" class="dropdown-content">
+        <a href="../my/gallery">gallery</a><br>
+        <a href="../my/oc-lore">OC info</a><br>
+        <a href="../my/commission-info">commissions</a>
+        </div>
+    </li>
+    <li class="dropdown" onclick="listToggle('other')">
+        <div><span class="dropclick">other</span>
+        <div id="other" class="dropdown-content">
+        <a href="../workshop">testing page</a><br>
+        <a href="../blogs/articles/minecraft-shrine">minecraft screens</a>
+        </div>
+    </li> 
+    <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">guestbook📝</a></li>
+</ul>
+</header>
+
+    <div id="isTimeResponsive" class="flexbox">
+        <div style="width:80%;padding:0px;">
+      <h1>Art Gallery&#127912&#128396</h1>
+      <p style="font-size:20px;">💎Some of my favorite Digital Art Pieces... Mmmm...💎</p>
+    </div>
+    <details open>
+      <summary>Finished Digital Illustrations (Click to Collapse)</summary>
+      <div class="container"> 
+        <div class="column">
+          <img loading="lazy" src="/pics/beachdragon1.png" style="width:100%">
+          <img loading="lazy" src="/pics/hand me my shovel.png" style="width:100%">
+          <img loading="lazy" src="/pics/table.png" style="width:100%">
+          <img loading="lazy" src="/pics/Vienne parents.png" style="width:100%">
+          <img loading="lazy" src="/pics/lani eyes.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img loading="lazy" src="/pics/hal sheet.png" style="width:100%">
+          <img loading="lazy" src="/pics/syl amora photo.png" style="width:100%">
+          <img loading="lazy" src="/pics/mirror.png" style="width:100%">
+          <img loading="lazy" src="/pics/Screenshot_20251126_165805.png" style="width:100%">
+          <img loading="lazy" src="/pics/uziaj.png" style="width:100%">
+          <img loading="lazy" src="/pics/v biker edit.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img loading="lazy" src="/pics/walking.png" style="width:100%">
+          <img loading="lazy" src="/pics/windows.png" style="width:100%">
+          <img loading="lazy" src="/pics/monster.png" style="width:100%">
+          <img loading="lazy" src="/pics/outlaw v.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img loading="lazy" src="/pics/arm diagrams.png" style="width:100%">
+          <img loading="lazy" src="/pics/hot summer darker.png" style="width:100%">
+          <img loading="lazy" src="/pics/interrogation.png" style="width:100%">
+          <img loading="lazy" src="/pics/lotis.png" style="width:100%">
+          <img loading="lazy" src="/pics/woman.png" style="width:100%">
+        </div>
+      </div></details>
+
+    </div>
+
+    <footer>
+    <a href="https://petrapixel.neocities.org/about/blinkies" target="_blank">
+    <img src="../img/widgets/queercode.png" alt="you're telling me a queer coded this" title="queer-coded"></a>
+    <img src="https://ezrakruger.cc/adbank/a?lang=en&size=468x60" width="468" height="60" alt="banner"> 
+    <iframe src="https://john.citrons.xyz/embed?ref=mondecitronne.com" style="margin-left:auto;display:block;margin-right:auto;margin-bottom:10px;margin-top:21px;max-width:500px;max-height:80px;width:100%;border:none;display:inline;"></iframe>
+</footer>
+    
+
+  <script src="../scripts/weather.js?nocache=1791505170916"></script>
+  </body>
+</html>

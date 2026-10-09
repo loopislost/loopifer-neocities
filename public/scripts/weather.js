@@ -1,6 +1,6 @@
 function setNight() {
     var cloud = retrieveCloud();
-    var cloud_pass = 'url("/pics/yellowmoon.png"), url("/pics/stars.png"), url("' + cloud + '"), linear-gradient(black, midnightblue, steelblue)';
+    var cloud_pass = 'url("../img/background/yellowmoon.png"), url("../img/background/stars.png"), url("' + cloud + '"), linear-gradient(black, midnightblue, steelblue)';
       /*document.body.style.backgroundImage = 'url("/pics/yellowmoon.png"), url("/pics/stars.png"), url("/pics/weather/clouds 1.png"), linear-gradient(black, midnightblue, steelblue)';*/
       document.body.style.backgroundImage = cloud_pass;
       document.body.style.backgroundRepeat = 'no-repeat,no-repeat,repeat';
@@ -8,7 +8,7 @@ function setNight() {
       document.body.style.backgroundAttachment = 'scroll';
       document.body.style.backgroundBlendMode = 'normal,normal,overlay,normal';
       document.body.style.minHeight = '100vh';
-      document.getElementById("seasonal").style.background = "rgba(61, 88, 227, 0.3)";
+      document.getElementById("isTimeResponsive").style.background = "rgba(61, 88, 227, 0.3)";
 }
 function setDawn() {
   var cloud = retrieveCloud();
@@ -16,7 +16,7 @@ function setDawn() {
       document.body.style.backgroundImage = cloud_pass;
       document.body.style.backgroundRepeat = 'repeat';
       document.body.style.minHeight = '100vh';
-      document.getElementById("seasonal").style.background = "rgba(244, 69, 160, 0.3)";
+      document.getElementById("isTimeResponsive").style.background = "rgba(244, 69, 160, 0.3)";
 }
 function setDay() {
   var cloud = retrieveCloud();
@@ -24,17 +24,17 @@ function setDay() {
       document.body.style.background = cloud_pass;
       document.body.style.backgroundRepeat = 'repeat';
       document.body.style.minHeight = '100vh';
-      document.getElementById("seasonal").style.background = "linear-gradient(lightyellow,lightblue)";
+      document.getElementById("isTimeResponsive").style.background = "linear-gradient(lightyellow,lightblue)";
 }
 
 /* weather randomizer -- I think I'll have random clouds be set every time the page loads/button is pressed */
 function retrieveCloud() {
-  var cloud_patterns = ["/pics/weather/clouds 1.png","/pics/weather/clouds 2.png","/pics/weather/clouds 3.png","/pics/weather/clouds 4.png","/pics/weather/clouds 5.png","/pics/weather/clouds 6.png","/pics/weather/clouds 7.png","/pics/weather/clouds 8.png"];
+  var cloud_patterns = ["../img/background/clouds 1.png","../img/background/clouds 2.png","../img/background/clouds 3.png","../img/background/clouds 4.png","../img/background/clouds 5.png","../img/background/clouds 6.png","../img/background/clouds 7.png","../img/background/clouds 8.png"];
   var cloud_current = cloud_patterns[Math.floor(Math.random() * cloud_patterns.length)];
   return cloud_current;
 }
 function testCloud() {
-  return "/pics/weather/clouds 1.png";
+  return "../img/background/clouds 1.png";
 }
 
 function onStart() {

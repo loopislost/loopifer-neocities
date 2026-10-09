@@ -1,0 +1,5 @@
+README.md
+content/wip/
+content/wip-page.html
+example/**/*.njk
+content/blogs/miniblog/*.md

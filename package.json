@@ -1,0 +1,13 @@
+{
+    "name": "loopifer-nook",
+    "private": "true",
+    "scripts": {
+        "build": "npx @11ty/eleventy"
+    },
+    "dependencies": {
+        "webpack": "^5.111.1"
+    },
+    "devDependencies": {
+        "@11ty/eleventy": "^3.1.6"
+    }
+}

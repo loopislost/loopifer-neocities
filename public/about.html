@@ -1,111 +1,111 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
-<head>
-  <title>About Loopifer</title>
-  <link rel="icon" type="image/svg+xml" href="/pics/favicon.ico">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="sunstyle.css">
-  <style>
-    .gridbox {
-      display: grid;
-      grid-template-columns: 20% 50% 30%;
-      border-radius: 5px;
-      justify-content: center;
-      column-gap: 10px;
-    }
-    table {
-      border-spacing: 10px;
-    }
-    td {
-      flex-basis:45%;
-      vertical-align: top;
-      margin: 10px 10px;
-      background-color: rgb(255, 234, 196);
-    }
-    .box1 {
-      flex-basis: 100%;
-      max-width:80%;
-      margin: 6px auto;
-      padding:10px;
-    }
-    .scrollbox {
-      max-height:400px;
-      overflow-y:scroll;
-    }
-    @media screen and (width < 700px) {
-      .gridbox {
-        display:flex;
-        flex-direction: column;
-      }
-      td {
-        display: flex;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div id="seasonal" class="gridbox">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.ico">
+    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1791505170916">
+    <style> table { border-spacing: 10px; } td { flex-basis:45%; vertical-align: top; margin: 10px 10px; background-color: rgb(255, 234, 196); } .box1 { flex-basis: 100%; max-width:80%; margin: 6px auto; padding:10px; } .scrollbox { max-height:400px; overflow-y:scroll; } @media screen and (width &lt; 700px) { .gridbox { display:flex; flex-direction: column; } td { display: flex; } }</style>
+  </head>
+  <body>
+
+    <header>
+    <ul class="topnav" >
+    <li><a href="index">home</a></li>
+    <li><a href="about">about</a></li>
+    <li><a href="site-map">site_map</a></li>
+    <li><a href="neighbors">neighbors</a></li>
+    <li class="dropdown" onclick="listToggle('blogs')"> 
+        <div><span class="dropclick">blogs</span>
+        <div id="blogs" class="dropdown-content">
+        <a href="blogs/bookblog">books</a><br>
+        <a href="blogs/miniblog">mini</a><br>
+        <a href="blogs/blog-hub">article hub</a>
+        </div>
+    </div> 
+    </li>
+    <li class="dropdown" onclick="listToggle('art')">
+        <div><span class="dropclick">art</span>
+        <div id="art" class="dropdown-content">
+        <a href="my/gallery">gallery</a><br>
+        <a href="my/oc-lore">OC info</a><br>
+        <a href="my/commission-info">commissions</a>
+        </div>
+    </li>
+    <li class="dropdown" onclick="listToggle('other')">
+        <div><span class="dropclick">other</span>
+        <div id="other" class="dropdown-content">
+        <a href="workshop">testing page</a><br>
+        <a href="blogs/articles/minecraft-shrine">minecraft screens</a>
+        </div>
+    </li> 
+    <li><a href="https://loopifer.atabook.org/" target="_blank" rel="noopener noreferrer">guestbook📝</a></li>
+</ul>
+</header>
+
+    <div id="isTimeResponsive" class="gridbox">
     
-    <div></div>
-    <div class="box1">
-      <h1 style="line-height:6px;">🍁 LOOPIFER 🍁</h1>
-      <h4 style="text-align:center; line-height:3px;font-family:vengeance;">they/them - 19</h4>
-      
-      <p><h1>Who are You?</h1>
-        &emsp;&emsp;Hello there! I usually go by Loop online (and irl... rarely). I hail from the US. I'm currently a <b>Mechanical Engineering</b> student (though thinking about switching majors). I probably come across as slightly insane in this website, but I'm a lot more reserved in real life.<br> 
-        &emsp;&emsp;I spend most of my free time reading, drawing, working on this website, or daydreaming about my other projects.</p>
+<div><!--First Column-->
+<div class="box1">
+    <h1 style="line-height:6px;">🍁 LOOPIFER 🍁</h1>
+    <h4 style="text-align:center; line-height:3px;font-family:vengeance;">they/them - 19</h4>
+    
+    <p><h1>Who are You?</h1>
+    &emsp;&emsp;Hello there! I usually go by Loop online (and irl... rarely). I hail from the US. I'm currently a <b>Mechanical Engineering</b> student (though thinking about switching majors). I probably come across as slightly insane in this website, but I'm a lot more reserved in real life.<br> 
+    &emsp;&emsp;I spend most of my free time reading, drawing, working on this website, or daydreaming about my other projects.</p>
 
-      <p><h1>Why Make Website?</h1>
+    <p><h1>Why Make Website?</h1>
 
-        &emsp;&emsp;I originally made a <a href="https://lostifer.carrd.co">carrd</a> back in 2023 but got bored of it pretty quickly.<br>
-        &emsp;&emsp;I discovered neocities through a YouTube video and then did nothing with that knowledge for at least a year. Over last summer (2026) I opened Neocities on a whim and then proceeded to do nothing but work on this site for about 3 days straight.<br>
-        &emsp;&emsp;The <a href="/bookblog">Book Review</a> portion of this website has been what keeps me coming back--and it's probably the most interesting part of this website. Yet there's always so much more to do... You'll likely find me back here as long as this place continues to scratch the creative itch in my brain.
-      </p>
-      <table>
-        <tr><td><div class="scrollbox">
-      <h4>Interests</h4>
-      <ul>
-        
-        <li>Art: Digital/ Traditional/Pixel</li>
-        <ul>
-          <li>(god I wish I had time for animation)</li>
-        </ul>
-        <li>Videogames</li>
-        <ul>
-          <li>Minecraft</li>
-          <li>and many others</li>
-        </ul>
-        <li>Coding</li>
-        <ul>
-          <li>Website Dev!</li>
-          <li>Python</li>
-          <li>Arduino IDE</li>
-        </ul>
-        <li><a href="/articles/personality-theory">Personality Theory</a> (...)</li>
-        <ul>
-          <li>Enneagram</li>
-          <li>16Personalities (former)(STAY AWAY from this website btw)</li>
-        </ul>
-        <li>3D Modelling</li>
-        <ul>
-          <li>Blender!</li>
-          <li>SolidWorks</li>
-        </ul>
-        <li>Choir</li>
-        <li>Social Dance!</li>
-        <ul>
-          <li>Lindy Hop :D</li>
-          <li>Plus some Waltz</li>
-        </ul>
-        <li>Piano</li>
-        <li>Writing (rarely)</li>
-        <li>Writing...reviews? (frequently)</li>
-      </ul></div>
-      </td>
-      <td><div class="scrollbox">
-      <h4>Trivia</h4>
-      <ul>
+    &emsp;&emsp;I originally made a <a href="https://lostifer.carrd.co">carrd</a> back in 2023 but got bored of it pretty quickly.<br>
+    &emsp;&emsp;I discovered neocities through a YouTube video and then did nothing with that knowledge for at least a year. Over last summer (2026) I opened Neocities on a whim and then proceeded to do nothing but work on this site for about 3 days straight.<br>
+    &emsp;&emsp;The <a href="/bookblog">Book Review</a> portion of this website has been what keeps me coming back--and it's probably the most interesting part of this website. Yet there's always so much more to do... You'll likely find me back here as long as this place continues to scratch the creative itch in my brain.
+    </p>
+    <table>
+    <tr><td><div class="scrollbox">
+    <h4>Interests</h4>
+    <ul>
+    
+    <li>Art: Digital/ Traditional/Pixel</li>
+    <ul>
+        <li>(god I wish I had time for animation)</li>
+    </ul>
+    <li>Videogames</li>
+    <ul>
+        <li>Minecraft</li>
+        <li>and many others</li>
+    </ul>
+    <li>Coding</li>
+    <ul>
+        <li>Website Dev!</li>
+        <li>Python</li>
+        <li>Arduino IDE</li>
+    </ul>
+    <li><a href="/articles/personality-theory">Personality Theory</a> (...)</li>
+    <ul>
+        <li>Enneagram</li>
+        <li>16Personalities (former)(STAY AWAY from this website btw)</li>
+    </ul>
+    <li>3D Modelling</li>
+    <ul>
+        <li>Blender!</li>
+        <li>SolidWorks</li>
+    </ul>
+    <li>Choir</li>
+    <li>Social Dance!</li>
+    <ul>
+        <li>Lindy Hop :D</li>
+        <li>Plus some Waltz</li>
+    </ul>
+    <li>Piano</li>
+    <li>Writing (rarely)</li>
+    <li>Writing...reviews? (frequently)</li>
+    </ul></div>
+    </td>
+    <td><div class="scrollbox">
+    <h4>Trivia</h4>
+    <ul>
         <li>ENFP (?)</li>
         <li>so/sx 927</li>
         <li>Star Sign: Gemini</li>
@@ -115,73 +115,82 @@
         <li>I need more ideas for this list</li>
         <li>My favorite color <i>isn't</i> actually orange</li>
         <ul>
-          <li>(I'm at the point where I'm not sure if that's true)</li>
+            <li>(I'm at the point where I'm not sure if that's true)</li>
         </ul>
         <li>I have 500+ hours in Animal Jam</li>
         <li>I have a unibrow</li>
-      </ul></div>
-      </td>
-      </table>
-      </p>
+    </ul></div>
+    </td>
+    </table>
+    </p>
+</div>
+
+<div>
+<div class="box1">
+    <h1 style="line-height:25px;">Current Projects!🌼</h1>
+    <p>Building this website!!<br>
+    Planning more comics...*cough cough*<br>
+    Posting Art on Socials<br>
+    🌚<i>The Postman</i></p>
+</div><!--Second Column-->
+<div class="box1">
+    <h1 style="line-height:25px;">Videogaming...</h1>
+    <div class="steambox"> >>Steam Last Played<br>
+    <iframe
+        src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=lastplayed"
+        frameborder="0"
+        scrolling="no"
+        width="175"
+        height="30"
+        allowtransparency="true"
+        title="Steam Last Played"
+    ></iframe><br>
+    >>Most Played Steam Game(technically incorrect)
+    <iframe
+    src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=mostplayed"
+    frameborder="0"
+    scrolling="no"
+    width="400"
+    height="30"
+    allowtransparency="true"
+    title="Steam Most Played"
+    ></iframe></div>
+</div>
+<div class="box1">
+    <h1 style="line-height:25px;">Media Inspirations!</h1>
+    <p><a href="https://www.youtube.com/watch?v=trfB_0ycTp0&list=PL_9VobYoMHhBjLjSxq5vzNW_9b00VUxiE" target="_blank" rel="noopener noreferrer">🙈No Evil</a><br>
+    <a href="https://www.youtube.com/watch?v=HwAPLk_sQ3w&list=PLHovnlOusNLgvAbnxluXCVB3KLj8e4QB-" target="_blank" rel="noopener noreferrer">🎪TADC</a><br>
+    <a href="https://www.webtoons.com/en/sf/space-boy/list?title_no=400" target="_blank"rel="noopener noreferrer">🌠Space Boy</a><br>
+    <a href="https://www.webtoons.com/en/canvas/patent-the-sun/list?title_no=123560" target="_blank"rel="noopener noreferrer">🌇Patent the Sun</a><br>
+    <a href="comicaurora.com" target="_blank"rel="noopener noreferrer">🌙Aurora</a><br>
+    👑Passerine<br>
+    🎣Webfishing<br>
+    🐕Dog Man<br>
+    🦊Animal Jam</p>
+</div>
+<div class="box1">
+    <h1 style="line-height:25px;">Other Fun Stuff...</h1>
+    <p><a href="https://paperdino.com/save-the-date/" target="_blank"rel="noopener noreferrer">👽Save The Date</a></p>
+</div>
+<div class="box1">
+    <h1 style="line-height:35px;">Defunct Works(observe at your own risk)</h1>
+    <p><a href="https://www.webtoons.com/en/canvas/soul-linked/list?title_no=505907" target="_blank"rel="noopener noreferrer">Soul Linked</a><br>
+    <a href="https://www.webtoons.com/en/canvas/the-eyes-of-a-god/list?title_no=908286" target="_blank"rel="noopener noreferrer">The Eyes of a God</a><br>
+    <a href="https://www.youtube.com/@loopislost" target="_blank"rel="noopener noreferrer">Old Youtube Channel</a></p>
+</div>
+</div>
+
+</div>
     </div>
 
-    <div>
-        <div class="box1">
-          <h1 style="line-height:25px;">Current Projects!🌼</h1>
-          <p>Building this website!!<br>
-          Planning more comics...*cough cough*<br>
-          Posting Art on Socials<br>
-          🌚<i>The Postman</i></p>
-        </div>
-        <div class="box1">
-          <h1 style="line-height:25px;">Videogaming...</h1>
-          <div class="steambox"> >>Steam Last Played<br>
-            <iframe
-              src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=lastplayed"
-              frameborder="0"
-              scrolling="no"
-              width="175"
-              height="30"
-              allowtransparency="true"
-              title="Steam Last Played"
-            ></iframe><br>
-            >>Most Played Steam Game(technically incorrect)
-          <iframe
-            src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=mostplayed"
-            frameborder="0"
-            scrolling="no"
-            width="400"
-            height="30"
-            allowtransparency="true"
-            title="Steam Most Played"
-          ></iframe></div>
-        </div>
-        <div class="box1">
-          <h1 style="line-height:25px;">Media Inspirations!</h1>
-          <p><a href="https://www.youtube.com/watch?v=trfB_0ycTp0&list=PL_9VobYoMHhBjLjSxq5vzNW_9b00VUxiE" target="_blank" rel="noopener noreferrer">🙈No Evil</a><br>
-          <a href="https://www.youtube.com/watch?v=HwAPLk_sQ3w&list=PLHovnlOusNLgvAbnxluXCVB3KLj8e4QB-" target="_blank" rel="noopener noreferrer">🎪TADC</a><br>
-          <a href="https://www.webtoons.com/en/sf/space-boy/list?title_no=400" target="_blank"rel="noopener noreferrer">🌠Space Boy</a><br>
-          <a href="https://www.webtoons.com/en/canvas/patent-the-sun/list?title_no=123560" target="_blank"rel="noopener noreferrer">🌇Patent the Sun</a><br>
-          <a href="comicaurora.com" target="_blank"rel="noopener noreferrer">🌙Aurora</a><br>
-          👑Passerine<br>
-          🎣Webfishing<br>
-          🐕Dog Man<br>
-          🦊Animal Jam</p>
-        </div>
-        <div class="box1">
-          <h1 style="line-height:25px;">Other Fun Stuff...</h1>
-          <p><a href="https://paperdino.com/save-the-date/" target="_blank"rel="noopener noreferrer">👽Save The Date</a></p>
-        </div>
-        <div class="box1">
-          <h1 style="line-height:35px;">Defunct Works(observe at your own risk)</h1>
-          <p><a href="https://www.webtoons.com/en/canvas/soul-linked/list?title_no=505907" target="_blank"rel="noopener noreferrer">Soul Linked</a><br>
-          <a href="https://www.webtoons.com/en/canvas/the-eyes-of-a-god/list?title_no=908286" target="_blank"rel="noopener noreferrer">The Eyes of a God</a><br>
-          <a href="https://www.youtube.com/@loopislost" target="_blank"rel="noopener noreferrer">Old Youtube Channel</a></p>
-        </div>
-      </div>
+    <footer>
+    <a href="https://petrapixel.neocities.org/about/blinkies" target="_blank">
+    <img src="img/widgets/queercode.png" alt="you're telling me a queer coded this" title="queer-coded"></a>
+    <img src="https://ezrakruger.cc/adbank/a?lang=en&size=468x60" width="468" height="60" alt="banner"> 
+    <iframe src="https://john.citrons.xyz/embed?ref=mondecitronne.com" style="margin-left:auto;display:block;margin-right:auto;margin-bottom:10px;margin-top:21px;max-width:500px;max-height:80px;width:100%;border:none;display:inline;"></iframe>
+</footer>
+    
 
-  </div>
-
-<script src="/seasoncolors.js"></script><script src="/layout.js"></script>
-</body>
+  <script src="scripts/weather.js?nocache=1791505170916"></script>
+  </body>
 </html>
