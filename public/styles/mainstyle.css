@@ -48,7 +48,7 @@ a {
   color: rgb(194, 52, 0);
 }
 a:hover {
-  font-weight:bold;
+  text-shadow: 0 0 1px rgb(194, 52, 0);
 }
 a::before {
     display: block;
@@ -172,9 +172,10 @@ ul.topnav li a {
 .dropclick:hover {
   color:mediumvioletred;
 }
-ul.topnav li a:hover {
+ul.topnav li:hover a {
   background-color: rgb(244, 148, 162);
   color: mediumvioletred;
+  text-shadow: 0 0 1px mediumvioletred;
 }
 ul.topnav li:hover .dropclick {
   background-color: rgb(244, 148, 162);
@@ -183,7 +184,7 @@ ul.topnav li:hover .dropclick {
 ul.topnav li:hover {
   background-color: rgb(244, 148, 162);
   color: mediumvioletred;
-  font-weight: bold;
+  text-shadow: 0 0 1px mediumvioletred;
 }
 .dropdown-content {
   position: absolute;
