@@ -52,7 +52,6 @@ a:hover {
 }
 a::before {
     display: block;
-    content: attr(title);
     font-weight: bold;
     height: 0;
     overflow: hidden;
