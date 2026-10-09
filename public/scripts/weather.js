@@ -50,4 +50,8 @@ function onStart() {
   }
 }
 
+function listToggle(navID) {
+  document.getElementById(navID).classList.toggle("show");
+}
+
 onStart()

@@ -48,7 +48,15 @@ a {
   color: rgb(194, 52, 0);
 }
 a:hover {
-  font-weight:bolder;
+  font-weight:bold;
+}
+a::before {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 table {
   border-spacing: 10px;
@@ -176,6 +184,7 @@ ul.topnav li:hover .dropclick {
 ul.topnav li:hover {
   background-color: rgb(244, 148, 162);
   color: mediumvioletred;
+  font-weight: bold;
 }
 .dropdown-content {
   position: absolute;
