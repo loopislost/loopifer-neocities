@@ -2,7 +2,8 @@
     "name": "loopifer-nook",
     "private": "true",
     "scripts": {
-        "build": "npx @11ty/eleventy"
+        "build": "npx @11ty/eleventy",
+        "watch": "npx @11ty/eleventy --serve & webpack --watch"
     },
     "dependencies": {
         "webpack": "^5.111.1"

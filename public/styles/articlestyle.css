@@ -1,0 +1,27 @@
+blockquote, p {
+    width: 100%;
+}
+.flexbox {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: left;
+}
+.gridbox {
+    grid-template-columns: 1fr 4fr;
+}
+img {
+    display:block;
+    max-width:80%;
+    padding: 5px;
+    margin: 0 auto;
+}
+.smallimg {
+    max-width: 30%;
+    padding:0px;
+}
+@media screen and (max-width:800px) {
+    img, .smallimg {
+    max-width:100%;
+    }
+}

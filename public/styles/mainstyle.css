@@ -25,6 +25,9 @@
   td {
     display: flex;
   }
+  .box1 {
+    width: 100%;
+  }
 }
 body {
   background: linear-gradient(#ffc9a9, plum);
