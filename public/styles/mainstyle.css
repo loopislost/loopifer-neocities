@@ -13,22 +13,7 @@
   font-family: "cyberpunk"; /* set name */
   src: url("../fonts/Shizuoka Cyberpunk.otf") format("opentype"); /* url of the font */
 }
-@media screen and (max-width:700px) {
-  body {
-    max-width: 100%;
-    min-height:100vh;
-  }
-  .gridbox {
-    display:flex;
-    flex-direction: column;
-  }
-  td {
-    display: flex;
-  }
-  .box1 {
-    width: 100%;
-  }
-}
+
 body {
   background: linear-gradient(#ffc9a9, plum);
   min-height: 100vh;
@@ -91,6 +76,10 @@ min-height: 10vh;
   grid-template-columns: 3fr 1fr;
   border-radius: 5px;
   column-gap: 10px;
+  margin: 0 auto;
+}
+.gridbox p, h1,h4 {
+  margin:10px;
 }
 .box1 {
   background-color: navajowhite;
@@ -170,6 +159,11 @@ ul.topnav li a {
   color: lightpink;
   text-decoration: none;
 }
+ul.topnav li a:hover {
+  background-color: rgb(244, 148, 162);
+  color: mediumvioletred;
+  text-shadow: 0 0 1px mediumvioletred;
+}
 .dropclick {
   color: pink;
 }
@@ -180,6 +174,17 @@ ul.topnav li:hover a {
   background-color: rgb(244, 148, 162);
   color: mediumvioletred;
   text-shadow: 0 0 1px mediumvioletred;
+}
+ul.topnav li:hover .dropdown-content a{
+  background-color:rgba(88, 59, 90,0);
+  color: lightpink;
+  text-shadow:none;
+}
+ul.topnav li .dropdown-content a:hover {
+  background-color: rgb(244, 148, 162);
+  color: mediumvioletred;
+  text-shadow: 0 0 1px mediumvioletred;
+  border-radius:3px;
 }
 ul.topnav li:hover .dropclick {
   background-color: rgb(244, 148, 162);
@@ -206,3 +211,23 @@ ul.topnav li:hover {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+@media screen and (max-width:700px) {
+  body {
+    max-width: 100%;
+    min-height:100vh;
+  }
+  .gridbox {
+    display:flex;
+    flex-direction: column;
+  }
+  .gridbox div {
+    width:95%;
+  }
+  td {
+    display: flex;
+  }
+  .box1 {
+    width: 100%;
+  }
+}
