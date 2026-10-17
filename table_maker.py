@@ -4,7 +4,7 @@ def extract_txt(filename):
     lst = []
     extract = []
 
-    with open(filename) as myfile:
+    with open(filename, 'r') as myfile:
         lst = myfile.readlines()
         for i in range(len(lst)):
             if lst[i][0:3] == '#!D':
@@ -17,21 +17,21 @@ def extract_txt(filename):
     return extract
 
 def print_to_csv(extracted):
-    with open("public/txt_csv/outfile.csv", "w") as outfile:
+    with open("public/docs/outfile.csv", "w") as outfile:
         for line in extracted:
             outfile.write(line + '\n')
 
-def csv_to_html():
+def csv_to_html(filename):
 
     lst = []
 
-    with open("public/txt_csv/outfile.csv", 'r') as myfile:
+    with open("public/docs/outfile.csv", 'r') as myfile:
         for line in myfile:
             row = line.strip().split(',')
             lst.append(row)
     #print(lst)
 
-    with open("/home/loop/SAVE THIS PLEASE/loopifer-neocities/public/txt_csv/table_out.txt", 'w') as myfile:
+    with open(filename, 'w') as myfile:
         myfile.write("<table>\n")
         myfile.write("<tr>")
         for category in lst[0]:
@@ -46,8 +46,9 @@ def csv_to_html():
             myfile.write("</tr>")
         myfile.write("\n</table>")
 
-if __name__ == "__main__":
+def main():
     txt = ["Date,MediaType,Title,Author/Creator,Rating"]    
-    txt += extract_txt("public/txt_csv/bookreviews.txt") + extract_txt("public/txt_csv/more reviews.txt")
+    txt += extract_txt("public/docs/bookreviews.txt") + extract_txt("public/docs/more reviews.txt")
     print_to_csv(txt)
-    csv_to_html()
+    csv_to_html("content/_includes/table.njk")
+main()

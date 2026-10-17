@@ -2,8 +2,9 @@
     "name": "loopifer-nook",
     "private": "true",
     "scripts": {
-        "build": "npx @11ty/eleventy",
-        "watch": "npx @11ty/eleventy --serve & webpack --watch"
+        "build": "python3 table_maker.py & npx @11ty/eleventy",
+        "watch": "npx @11ty/eleventy --serve & webpack --watch",
+        "table": "python3 table_maker.py"
     },
     "dependencies": {
         "webpack": "^5.111.1"

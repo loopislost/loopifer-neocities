@@ -25,6 +25,10 @@ const quizData = [
         question: 'Which seven deadly sin describes you best?',
         options: ['Pride','Greed','Gluttony','Wrath','Lust','Sloth'],
         answerCodes: ['exotic','prey','pet','predator','exotic','pet']
+    },
+    {
+        question: 'Within your social circles, how do you view yourself?',
+        options: ["I'm the mom/dad friend","I'm the funny one",""]
     }
 ]
 const numQuestions = quizData.length;
