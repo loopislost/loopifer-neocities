@@ -120,17 +120,16 @@ min-height: 10vh;
 .blog {
   background-color: lightpink;
   border:2px solid hotpink;
+  padding: 5px;
   border-radius:2px;
   color: black;
-  margin: 7px 0px;
-  width: 100%;
+  margin: 7px auto;
+  width: 90%;
   float: right;
   font-family: verdana;
   font-size: 20px;
 }
-.blog:hover {
-  transform: scale(1.02);
-}
+
 .scrollbox {
   max-height:400px;
   overflow-y:scroll;
@@ -138,6 +137,7 @@ min-height: 10vh;
 
 /*Everything below is for the header*/
 ul.topnav {
+  padding:0px;
   display: flex;
   border-radius: 5px;
   color: antiquewhite;
