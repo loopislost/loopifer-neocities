@@ -51,4 +51,50 @@ def main():
     txt += extract_txt("public/docs/bookreviews.txt") + extract_txt("public/docs/more reviews.txt")
     print_to_csv(txt)
     csv_to_html("content/_includes/table.njk")
-main()
+    make_readable_html("public/docs/bookreviews.txt","content/_includes/bookreviews-inner.njk")
+    make_readable_html("public/docs/bookreviews.txt","content/_includes/otherreviews-inner.njk")
+
+def make_readable_html(infile,outfile): # converts my bookreviews.txt into an html/njk file to improve readability on the website
+    filelst = []
+    with open(infile, 'r') as myfile:
+        for line in myfile:
+            filelst.append(line)
+    #print(filelst)
+
+    endlst = []
+    x = 0
+    while x < len(filelst):
+        if filelst[x][0] == "#": # line is part of info tags: start process here
+            item = []
+            date = filelst[x][8:].strip()
+            x += 2
+            title = filelst[x][9:].strip()
+            x += 1
+            author = filelst[x][10:].strip()
+            topstring = f'({date}) Review of {title} by {author}'
+            item.append(topstring)
+            x += 2
+            textstring = ''
+            while filelst[x][0] != '#':
+                #print("inwhileloop" + str(x))
+                if filelst[x] == '\n' or filelst[x][0] in ["_",">"]: # Skip
+                    #print("empty line" + str(x))
+                    pass
+                else: 
+                    textstring += f'<p>{filelst[x]}</p>'
+                if x+1 >= len(filelst):
+                    break
+                x += 1
+            item.append(textstring)
+            print(item)
+            endlst.append(item)
+            x -= 1
+        x+=1
+    #print(endlst)
+    
+    with open(outfile, "w") as myfile:
+        finalstring = ''
+        for item in endlst:
+            finalstring += "<details><summary>" + item[0] + "</summary>" + item[1] + "</details>"
+            myfile.write(finalstring + '\n')
+            finalstring = ''
