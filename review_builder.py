@@ -46,14 +46,6 @@ def csv_to_html(filename):
             myfile.write("</tr>")
         myfile.write("\n</table>")
 
-def main():
-    txt = ["Date,MediaType,Title,Author/Creator,Rating"]    
-    txt += extract_txt("public/docs/bookreviews.txt") + extract_txt("public/docs/more reviews.txt")
-    print_to_csv(txt)
-    csv_to_html("content/_includes/table.njk")
-    make_readable_html("public/docs/bookreviews.txt","content/_includes/bookreviews-inner.njk")
-    make_readable_html("public/docs/bookreviews.txt","content/_includes/otherreviews-inner.njk")
-
 def make_readable_html(infile,outfile): # converts my bookreviews.txt into an html/njk file to improve readability on the website
     filelst = []
     with open(infile, 'r') as myfile:
@@ -71,7 +63,9 @@ def make_readable_html(infile,outfile): # converts my bookreviews.txt into an ht
             title = filelst[x][9:].strip()
             x += 1
             author = filelst[x][10:].strip()
-            topstring = f'({date}) Review of {title} by {author}'
+            x += 1 
+            rating = filelst[x][10:].strip()
+            topstring = f'<b>{rating}</b> -- <i>{title}</i> by {author} ({date})'
             item.append(topstring)
             x += 2
             textstring = ''
@@ -86,7 +80,7 @@ def make_readable_html(infile,outfile): # converts my bookreviews.txt into an ht
                     break
                 x += 1
             item.append(textstring)
-            print(item)
+            #print(item)
             endlst.append(item)
             x -= 1
         x+=1
@@ -95,6 +89,16 @@ def make_readable_html(infile,outfile): # converts my bookreviews.txt into an ht
     with open(outfile, "w") as myfile:
         finalstring = ''
         for item in endlst:
-            finalstring += "<details><summary>" + item[0] + "</summary>" + item[1] + "</details>"
+            finalstring += "<details class='review'><summary>" + item[0] + "</summary>" + item[1] + "</details>"
             myfile.write(finalstring + '\n')
             finalstring = ''
+
+def main():
+    txt = ["Date,MediaType,Title,Author/Creator,Rating"]    
+    txt += extract_txt("public/docs/bookreviews.txt") + extract_txt("public/docs/otherreviews.txt")
+    print_to_csv(txt)
+    csv_to_html("content/_includes/table.njk")
+    make_readable_html("public/docs/bookreviews.txt","content/_includes/bookreviews-inner.njk")
+    make_readable_html("public/docs/otherreviews.txt","content/_includes/otherreviews-inner.njk")
+
+main()
