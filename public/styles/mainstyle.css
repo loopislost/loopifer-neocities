@@ -123,12 +123,29 @@ min-height: 10vh;
   padding: 5px;
   border-radius:2px;
   color: black;
-  margin: 7px auto;
+  margin: .5em auto;
   width: 90%;
-  float: right;
+  /*float: right;*/
   font-family: verdana;
   font-size: 20px;
 }
+.review, .blog {
+  background-color: rgb(54, 34, 30);
+  color: rgb(208, 201, 201);
+  border: 3px solid rgb(38, 5, 5);
+  border-radius: 5px;
+  padding: 10px;
+  margin: .5em;
+  font-size: .9em;
+}
+.review summary {
+  color: rgb(154, 139, 139);
+  font-size:1em;
+}
+.review i {
+  color: rgb(208, 201, 201);
+}
+.blog {margin:.5em auto;}
 
 .scrollbox {
   max-height:400px;
