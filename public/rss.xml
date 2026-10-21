@@ -5,6 +5,17 @@
 <link>https://loopifer.neocities.org</link>
 <description>All blog posts, including media reviews, miniblog, articles, and new page debuts.</description>
 <item>
+    <title>Nothing Feels Real(Miniblog Post)</title>
+    <link>https://loopifer.neocities.org/blogs/miniblog</link>
+    <guid isPermaLink="false">tag:rss.miniblog.1.losingmamind,2026</guid>
+    <pubDate>Tues, 20 Oct 2026 21:59:00 MDT</pubDate>
+    <description>
+    <p> 
+        I've been staring at this computer screen for only 2 hours but I feel like I'm completely losing it. I successfully reworked all the bookblog and other review stuff (I have a bad habit of coding everything at once and <i>then</i> going back to debug the entire thing... it worked out pretty well this time around though). Realizing the potential of package.jsons and SSGs is so great. I didn't know if it would really pay off when I switched to Eleventy but it was so worth it. AUTOMATION! YIPPEE! Anyhoo expect colors to swap around. Ideally my next project for this site will be setting global themes. If classes haven't murdered me by then ahahaha I hate my job and I hate my life :DDD
+    <br>  --Loop
+    </p></description>
+</item>
+<item>
     <title>Review of Arcane Season 1</title>
     <link>https://loopifer.neocities.org/blogs/bookblog</link>
     <guid isPermaLink="false">tag:rss.otherreview.2.arcanes1,2026</guid>

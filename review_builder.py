@@ -89,7 +89,7 @@ def make_readable_html(infile,outfile): # converts my bookreviews.txt into an ht
     with open(outfile, "w") as myfile:
         finalstring = ''
         for item in endlst:
-            finalstring += "<details class='review'><summary>" + item[0] + "</summary>" + item[1] + "</details>"
+            finalstring += "<details class='review' open><summary>" + item[0] + "</summary>" + item[1] + "</details>"
             myfile.write(finalstring + '\n')
             finalstring = ''
 
