@@ -79,7 +79,7 @@ min-height: 10vh;
   margin: 0 auto;
 }
 .gridbox p, h1,h4 {
-  margin:10px;
+  margin:.5em;
 }
 .box1 {
   background-color: navajowhite;
@@ -128,11 +128,17 @@ min-height: 10vh;
   color: black;
   font-size: 20px;
 }
+.blog[open] {
+  background: linear-gradient(lightpink, rgb(220, 144, 188));
+}
 .review {
-  background: linear-gradient(rgb(54, 34, 30),rgb(67, 37, 37));
+  background-color: rgb(54, 34, 30);
   color: rgb(208, 201, 201);
   border: 3px solid rgb(38, 5, 5);
   font-size: .9em;
+}
+.review[open] {
+  background: linear-gradient(rgb(54, 34, 30),rgb(64, 36, 36));
 }
 
 .review summary {
@@ -235,7 +241,7 @@ ul.topnav li:hover {
     flex-direction: column;
   }
   .gridbox div {
-    width:95%;
+    width:100%;
   }
   td {
     display: flex;
