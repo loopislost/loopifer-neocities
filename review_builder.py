@@ -65,7 +65,7 @@ def make_readable_html(infile,outfile): # converts my bookreviews.txt into an ht
             author = filelst[x][10:].strip()
             x += 1 
             rating = filelst[x][10:].strip()
-            topstring = f'<b>{rating}</b> -- <i>{title}</i> by {author} ({date})'
+            topstring = f'&#10002; <b>{rating}</b> -- <i>{title}</i> by {author} ({date})'
             item.append(topstring)
             x += 2
             textstring = ''

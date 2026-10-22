@@ -117,27 +117,24 @@ min-height: 10vh;
   flex: 100%;
   max-width: 100%;
 }
+.blog, .review {
+  padding: 10px;
+  border-radius: 5px;
+  margin: .5em;
+}
 .blog {
   background-color: lightpink;
-  border:2px solid hotpink;
-  padding: 5px;
-  border-radius:2px;
+  border: 3px solid rgb(151, 27, 52);
   color: black;
-  margin: .5em auto;
-  width: 90%;
-  /*float: right;*/
-  font-family: verdana;
   font-size: 20px;
 }
-.review, .blog {
-  background-color: rgb(54, 34, 30);
+.review {
+  background: linear-gradient(rgb(54, 34, 30),rgb(67, 37, 37));
   color: rgb(208, 201, 201);
   border: 3px solid rgb(38, 5, 5);
-  border-radius: 5px;
-  padding: 10px;
-  margin: .5em;
   font-size: .9em;
 }
+
 .review summary {
   color: rgb(154, 139, 139);
   font-size:1em;
@@ -145,7 +142,6 @@ min-height: 10vh;
 .review i {
   color: rgb(208, 201, 201);
 }
-.blog {margin:.5em auto;}
 
 .scrollbox {
   max-height:400px;
