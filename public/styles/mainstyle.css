@@ -129,16 +129,16 @@ min-height: 10vh;
   font-size: 20px;
 }
 .blog[open] {
-  background: linear-gradient(lightpink, rgb(220, 144, 188));
+  background: linear-gradient(rgb(255, 186, 197), rgb(220, 144, 188));
 }
 .review {
   background-color: rgb(54, 34, 30);
   color: rgb(208, 201, 201);
-  border: 3px solid rgb(38, 5, 5);
+  border: 3px solid rgb(34, 3, 3);
   font-size: .9em;
 }
 .review[open] {
-  background: linear-gradient(rgb(54, 34, 30),rgb(64, 36, 36));
+  background: linear-gradient(rgb(50, 31, 27),rgb(73, 41, 41));
 }
 
 .review summary {

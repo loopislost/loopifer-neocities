@@ -9,6 +9,7 @@ function setNight() {
       document.body.style.backgroundBlendMode = 'normal,normal,overlay,normal';
       document.body.style.minHeight = '100vh';
       document.getElementById("isTimeResponsive").style.background = "rgba(61, 88, 227, 0.3)";
+      document.getElementById("isTimeResponsive").style.color = "rgb(227, 231, 250)";
 }
 function setDawn() {
   var cloud = retrieveCloud();
@@ -17,6 +18,7 @@ function setDawn() {
       document.body.style.backgroundRepeat = 'repeat';
       document.body.style.minHeight = '100vh';
       document.getElementById("isTimeResponsive").style.background = "rgba(244, 69, 160, 0.3)";
+      document.getElementById("isTimeResponsive").style.color = "black";
 }
 function setDay() {
   var cloud = retrieveCloud();
@@ -25,6 +27,7 @@ function setDay() {
       document.body.style.backgroundRepeat = 'repeat';
       document.body.style.minHeight = '100vh';
       document.getElementById("isTimeResponsive").style.background = "linear-gradient(lightyellow,lightblue)";
+      document.getElementById("isTimeResponsive").style.color = "black";
 }
 
 /* weather randomizer -- I think I'll have random clouds be set every time the page loads/button is pressed */
