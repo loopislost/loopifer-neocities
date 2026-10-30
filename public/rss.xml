@@ -5,6 +5,15 @@
 <link>https://loopifer.neocities.org</link>
 <description>All blog posts, including media reviews, miniblog, articles, and new page debuts.</description>
 <item>
+    <title>Interests Lists</title>
+    <link>https://loopifer.neocities.org/my/interest-lists</link>
+    <guid isPermaLink="false">tag:rss.article.4.interestlistsv1,2026</guid>
+    <pubDate>Thurs, 29 Oct 2026 22:31:00 MDT</pubDate>
+    <description>
+        Created a new page for comprehensive lists of interests or just things I've seen.
+    </description>
+</item>
+<item>
     <title>100-webmaster-questions</title>
     <link>https://loopifer.neocities.org/blogs/articles/100-webmaster-questions.html</link>
     <guid isPermaLink="false">tag:rss.article.3.100webmasterquestions,2026</guid>
