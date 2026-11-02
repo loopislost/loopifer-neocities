@@ -57,6 +57,9 @@ td {
 button:hover {
   transform: scale(0.9);
 }
+textarea {
+  margin: 0 1.5em;
+}
 .heading {
 display: flex;
 background-color: orange;
@@ -97,21 +100,26 @@ min-height: 10vh;
 }
 .steambox {
   background-color: rgb(255, 127, 95);
-  color: white;
+  color: rgb(113, 9, 9);
   border: 2px solid orangered;
-  border-radius: 2px;
+  border-radius: 1px;
   padding: 2px 2px;
   box-shadow: 0 2px 2px rgba(50,30,15,.5);
   font-size: 18px;
 }
+.steambox strong {
+  color: rgb(40, 0, 1);
+}
 .pinkbutton {
-  font-family: "cyberpunk", courier, sans-serif, monospace;
-  font-size: 25px;
+  font-family: courier, sans-serif, monospace;
+  font-weight: bold;
   color: mediumvioletred;
   border: 2px solid mediumvioletred;
   border-radius: 5px;
   padding: 5px;
   background-color: lightpink;
+  text-decoration: dotted;
+  font-size:20px;
 }
 .box1, .box3, .box4 {
   flex: 100%;

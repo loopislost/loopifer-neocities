@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.ico">
-    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1792472095546">
+    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1793594206996">
     <style> table { border-spacing: 10px; } .box1 { max-width:90%; margin: 6px auto; padding:10px; } .scrollbox { max-height:400px; overflow-y:scroll; }</style>
   </head>
   <body>
@@ -128,26 +128,13 @@
 </div>
 <div class="box1">
     <h1 style="line-height:25px;">Videogaming...</h1>
-    <div class="steambox"> >>Steam Last Played<br>
-    <iframe
-        src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=lastplayed"
-        frameborder="0"
-        scrolling="no"
-        width="175"
-        height="30"
-        allowtransparency="true"
-        title="Steam Last Played"
-    ></iframe><br>
-    >>Most Played Steam Game(technically incorrect)
-    <iframe
-    src="https://strawberrysnails.github.io/steam-widgets/iframe-ver/?steamid=76561198868010786&type=mostplayed"
-    frameborder="0"
-    scrolling="no"
-    width="400"
-    height="30"
-    allowtransparency="true"
-    title="Steam Most Played"
-    ></iframe></div>
+<script class="steambox"
+  src="https://strawberrysnails.github.io/steam-widgets/js/steam-lastplayed.js?steamid=76561198868010786">
+</script>
+
+<script class="steambox"
+  src="https://strawberrysnails.github.io/steam-widgets/js/steam-mostplayed.js?steamid=76561198868010786">
+</script>
 </div>
 <div class="box1">
     <h1 style="line-height:25px;">Media Inspirations!</h1>
@@ -182,6 +169,6 @@
 </footer>
     
 
-  <script src="scripts/weather.js?nocache=1792472095546"></script>
+  <script src="scripts/weather.js?nocache=1793594206996"></script>
   </body>
 </html>
