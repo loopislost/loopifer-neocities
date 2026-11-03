@@ -76,7 +76,7 @@ min-height: 10vh;
 .gridbox {
   background: linear-gradient(lightyellow,lightblue);
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   border-radius: 5px;
   column-gap: 10px;
   margin: 0 auto;

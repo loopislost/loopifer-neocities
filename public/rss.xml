@@ -5,6 +5,16 @@
 <link>https://loopifer.neocities.org</link>
 <description>All blog posts, including media reviews, miniblog, articles, and new page debuts.</description>
 <item>
+    <title>NEW Project (Miniblog post)</title>
+    <title>https://loopifer.neocities.org/blogs/miniblog</title>
+    <guid isPermaLink="false">tag:rss.blogpost.7.newprojectwowie,2026</guid>
+    <pubDate>Tues, 3 Nov 2026 10:37:00 MST</pubDate>
+    <description>
+        <p>I recently discovered that my Science in Lit class has a final project (with a creative or essay option). Sooo now I finally have an excuse to learn Twine and probably torture myself to death in the process. I'm ALSO currently doing art for a game jam that ends this Friday. Too many projects...woof</p>
+        <p>also I split previous miniblog page into this and otherblog, for shows and movies. It just made more sense to have them separate.</p>
+    </description>
+</item>
+<item>
     <title>Review of Xenocide by Orson Scott Card</title>
     <title>https://loopifer.neocities.org/blogs/bookblog</title>
     <guid isPermaLink="false">tag:rss.bookreview.6.xenocide,2026</guid>
@@ -19,7 +29,7 @@
 </item>
 <item>
     <title>Review of Arcane Season 2</title>
-    <link>https://loopifer.neocities.org/blogs/miniblog</link>
+    <link>https://loopifer.neocities.org/blogs/otherblog</link>
     <guid isPermaLink="false">tag:rss.otherreview.5.arcanes2,2026</guid>
     <pubDate>Sun, 1 Nov 2026 22:12:00 MST</pubDate>
     <description>
@@ -375,7 +385,7 @@
 </item>
 <item>
     <title>Review of Arcane Season 1</title>
-    <link>https://loopifer.neocities.org/blogs/bookblog</link>
+    <link>https://loopifer.neocities.org/blogs/otherblog</link>
     <guid isPermaLink="false">tag:rss.otherreview.2.arcanes1,2026</guid>
     <pubDate>Tues, 20 Oct 2026 10:32:00 MDT</pubDate>
     <description>
@@ -397,7 +407,7 @@
 </item>
 <item>
     <title>Special Review: "Hazbin Hotel" Ep1 vs Pilot</title>
-    <link>https://loopifer.neocities.org/blogs/miniblog</link>
+    <link>https://loopifer.neocities.org/blogs/otherblog</link>
     <guid isPermaLink="false">tag:rss.otherreview.1.HH1vPilot,2026</guid>
     <pubDate>Sat, 17 Oct 2026 18:22:00 MDT</pubDate>
     <description>Oct. 17, 2026
