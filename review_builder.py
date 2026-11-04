@@ -32,11 +32,14 @@ def csv_to_html(filename):
     #print(lst)
 
     with open(filename, 'w') as myfile:
-        myfile.write("<table>\n")
+        myfile.write("<table id='myTable'>\n")
         myfile.write("<tr>")
-        for category in lst[0]:
+        '''for category in lst[0]:
             string = "<th>" + category + "</th>"
-            myfile.write(string)
+            myfile.write(string)'''
+        #redoing table header processing bc I don't think they'll change
+        string = '<th>Date</th><th onclick="sortTable(1)">MediaType</th><th onclick="sortTable(2)">Title</th><th onclick="sortTable(3)">Author/Creator</th><th onclick="sortTable(4)">Rating</th>'
+        myfile.write(string)
         myfile.write("</tr>")
         for row in lst[1:]:
             myfile.write("<tr>")
