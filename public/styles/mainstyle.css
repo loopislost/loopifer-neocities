@@ -247,14 +247,17 @@ ul.topnav li:hover {
   .gridbox {
     display:flex;
     flex-direction: column;
+    margin:0 auto;
+    padding:5px;
   }
   .gridbox div {
-    width:95%;
+    width:100%;
+    margin: 0 auto;
   }
   td {
     display: flex;
   }
   .box1 {
-    width: 100%;
+    max-width: 90%;
   }
 }
