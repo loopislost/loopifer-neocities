@@ -249,7 +249,7 @@ ul.topnav li:hover {
     flex-direction: column;
   }
   .gridbox div {
-    width:100%;
+    width:95%;
   }
   td {
     display: flex;
