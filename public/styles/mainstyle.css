@@ -253,6 +253,7 @@ ul.topnav li:hover {
   .gridbox div {
     width:100%;
     margin: 0 auto;
+    margin-bottom: 5px;
   }
   td {
     display: flex;
