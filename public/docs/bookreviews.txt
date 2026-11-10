@@ -1,4 +1,15 @@
 __________________
+#!Date: Nov 9 2026
+#!Type: Book
+#!Title: War of the Worlds
+#!Author: H.G. Wells
+#!Rating: 5/10
+
+Read this one for class. I feel like War of the Worlds manages to be much more digestible and accessible to a casual reader than Frankenstein (though it was published ~70 years after so it may not be a fair comparison). It's still clearly an older book, and the narrative feels more distant and less exciting than more modern literature, but I enjoyed this more than expected.
+
+Despite pretty horrible things happening in the book, it doesn't feel that dark. Maybe I'm just saying that off the back of reading <i>Annihilation</i> but this one felt more lighthearted. Which is good, I don't want every literary experience I have to be soul crushing. Of the older classics, this one is one that I don't think I'd pick up for fun but it was a decent experience nonetheless.
+
+__________________
 #!Date: Nov 8 2026
 #!Type: Book
 #!Title: Annihilation
@@ -7,7 +18,7 @@ __________________
 
 If you like weird surreal/absurdist/existentialist horror books, I would definitely recommend this one. I'm giving it a 6 over a 7 because that kind of story is a little bit more outside my own interest range. It didn't quite fit my own reader profile, but it was an interesting book nonetheless and I like the way it handled the main character and her arc. It's also a pretty short read.
 
-It feels like a better version of <i>Not Alone</i> by Sarah Jackson (a novel I read earlier this year). They both explore themes of nature vs humanity (with undertones about our current climate/general ecological crises) underscoring their setting. I think Annihilation handles its main character in a much more satisfying way than <i>Not Alone</i> did, and the story feels much more self aware about the main character's position as an unreliable narrator, which makes her easy to tolerate as the story isn't blindly supporting her own ego throughout.
+It feels like a better version of <i>Not Alone</i> by Sarah Jackson (a novel I read earlier this year). They both explore themes of nature vs humanity (with undertones about our current climate/general ecological crises) underscoring their setting. I think Annihilation handles its main character in a much more satisfying way and I found her arc throughout the book genuinely compelling (it's probably the biggest draw for me).
 
 __________________
 #!Date: Nov 3 2026
@@ -112,7 +123,7 @@ __________________
 #!Type: Book
 #!Title: Frankenstein: the Modern Prometheus
 #!Author: Mary Shelley
-#!Rating: 6/10
+#!Rating: 5/10
 
 I personally would not choose to read this for fun, but it is a classic with plenty of modern cultural relevance. If you can get past the older styled language (it's actually not That hard to read if you're patient) then it's a fairly interesting story. I personally struggle to detect when older authors are being subtle and tend to take everything they write at face value, but Frankenstein deliberately seems to poke fun at some of its characters (mainly Victor), many of which are egotistical assholes and unreliable narrators. Under the layers of characterization, you can grasp at the message Mary Shelley is actually trying to convey. I personally prefer books where the entertainment value is a lot higher and I have a personal hatred for egotistical main characters (looking at you Walter White) but uhhh yeah. Watch OSP Red's summary of it, she's good at making classics entertaining.
 __________________
@@ -223,7 +234,7 @@ __________________
 #!Author: Frank Herbert
 #!Rating: 8/10
 
-Anyway, I highly recommend, I love the political intrigue and the narrative and the way it's written. And the little blurbs at the beginning are cool because of how added context makes them slowly make more and more sense throughout the book until you get a reveal at the very end. I get why this is a scifi staple. I'll get my hands on the sequels at some point...hopefully......
+Anyway, I recommend, I love the political intrigue and the narrative and the way it's written. And the little blurbs at the beginning are cool because of how added context makes them slowly make more and more sense throughout the book until you get a reveal at the very end. I get why this is a scifi staple. I'll get my hands on the sequels at some point...hopefully......
 
 __________________
 #!Date: Aug 9 2026
