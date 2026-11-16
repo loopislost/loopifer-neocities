@@ -1,4 +1,14 @@
 __________________
+#!Date: Nov 15 2026
+#!Type: Book
+#!Title: Children of the Mind
+#!Author: Orson Scott Card
+#!Rating: 6/10
+
+It took me a while to get around to writing this review and I didn't fully understand why I felt so unmotivated to do so. After some consideration, I think I've sorted out my thoughts on this one.
+
+This book is still good; it's fun and cute and didn't disappoint me. It's also the weakest of the Ender's Game series so far. I don't know, it has Card's touch of writing compelling human characters. However, I found it a lot less thought-provoking than both <i>Xenocide</i> and <i>Speaker for the Dead</i>. To be clear, it's still worth reading. It concludes nearly all of the arcs throughout the previous books in a satisfying way (with some room for continuation!).
+__________________
 #!Date: Nov 9 2026
 #!Type: Book
 #!Title: War of the Worlds
@@ -76,7 +86,7 @@ __________________
 #!Type: Book
 #!Title: Children of Dune
 #!Author: Frank Herbert
-#!Rating: 7/10
+#!Rating: 5/10
 
 I don't think it would be right to rate this one lower than Dune: Messiah, but the fatigue of reading this series is definitely settling in. This one was generally a better experience than Dune: Messiah but it was double that book's length so that made it a bit more painful. I will be taking a long break from Dune after finishing this one. 
 
@@ -104,7 +114,7 @@ __________________
 #!Type: Book
 #!Title: Dune: Messiah
 #!Author: Frank Herbert
-#!Rating: 7/10
+#!Rating: 6/10
 
 This one is a pretty big departure from the first book. I don't think it's bad, I like what it's going for, but I can see why the reception to the sequel was worse than the first. 
 
