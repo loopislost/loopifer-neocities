@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.ico">
-    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1795385498087">
+    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1795386362339">
     <style></style>
   </head>
   <body>
@@ -57,10 +57,10 @@
 
       <!--Container: RSS Feed & Site Button & Neocities button-->
       <div class="bar-holder">
-        <a href="https://neocities.org/site/loopifer"><img href="img/widgets/neocities_btn.png" alt="neocities link"></a>
+        <a href="https://neocities.org/site/loopifer"><img src="img/widgets/neocities_btn.png" alt="neocities link"></a>
         <a href="rss.xml"><img src="img/widgets/RSS_button.png"></a>
         
-        <a href="https://loopifer.neocities.org"><img class="big" src="img/loopifer_button.png" alt="site button"></a><textarea>&lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a></textarea></p><a onclick="copyText()"><img src="img/widgets/clipboard_btn.png"></a>
+        <a href="https://loopifer.neocities.org"><img class="big" src="img/loopifer_button.png" alt="site button"></a><textarea>&lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a></textarea></p><a onclick="copyText()"><img style="cursor: pointer;" src="img/widgets/clipboard_btn.png"></a>
       </div>
 
     </div>
@@ -107,7 +107,7 @@
     function copyText() {
       /* Copy text into clipboard */
       navigator.clipboard.writeText(
-        '&lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a>'
+        '<a href="https://loopifer.neocities.org/" target="_blank"><img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer"></a>'
       );
       // Need indicator to show user it has been copied
     }
@@ -122,6 +122,6 @@
 </footer>
     
 
-  <script src="scripts/weather.js?nocache=1795385498087"></script>
+  <script src="scripts/weather.js?nocache=1795386362339"></script>
   </body>
 </html>
