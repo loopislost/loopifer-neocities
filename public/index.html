@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.ico">
-    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1795109903334">
+    <link rel="stylesheet" href="styles/mainstyle.css?nocache=1795385498087">
     <style></style>
   </head>
   <body>
@@ -47,12 +47,22 @@
       <h1 style="line-height:6px;">WELCOME...</h1>
       <p> This website is made using <b>VSCode</b>! Site primarily tested on <b>Firefox</b> on pc and <b>Brave</b> on mobile. If there are any issues, PLEASE drop me a comment on my <a href="loopifer.atabook.org">guestbook</a>!</p>
       <p>All art on here is by me unless stated otherwise!</p>
-      <p>If you want to read one person's bad opinions on books, movies, and everything else I can get my grubby hands on, this site is for you. (I also do art if that's more your thing)</p>
+      <p>If you want to read one person's bad opinions on books, movies, and everything else I can get my grubby hands on, this site is for you. (I also <small>occasionally</small>do art if that's more your thing)</p>
       <p>Maybe check out my <a href="about">about me</a> or my <a href="blogs/bookblog">book blog</a>?</p>
-      <p><a  class='nohighlight' href="//clap.fc2.com/post/loopifer/?url=https%3A%2F%2Floopifer.neocities.org&title=Loopifer%27s+Nook" target="_blank" title="Web Clap by FC2"><img class="big" src="//clap.fc2.com/images/button/orange/loopifer?url=https%3A%2F%2Floopifer.neocities.org&amp;lang=en" alt="Web Clap by FC2" style="border:none;" /></a>
-    
-      <a class="nohighlight" href="https://loopifer.neocities.org"><img class="big" src="img/loopifer_button.png" alt="site button"></a><textarea>&lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a></textarea><a href="rss.xml"><img style="width:35px;" src="img/widgets/rss.png"></a></p>
-      <a class="pinkbutton" href="https://neocities.org/site/loopifer">neocities profile</a>
+      <p>
+      <div class="upvote-widget" data-upvote-widget="main-counter">
+        <button type="button">
+        <span>0</span>♥</button>
+      </div><small>from <a href="petrapixel.neocities.org">petrapixel</a></small><br>
+
+      <!--Container: RSS Feed & Site Button & Neocities button-->
+      <div class="bar-holder">
+        <a href="https://neocities.org/site/loopifer"><img href="img/widgets/neocities_btn.png" alt="neocities link"></a>
+        <a href="rss.xml"><img src="img/widgets/RSS_button.png"></a>
+        
+        <a href="https://loopifer.neocities.org"><img class="big" src="img/loopifer_button.png" alt="site button"></a><textarea>&lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a></textarea></p><a onclick="copyText()"><img src="img/widgets/clipboard_btn.png"></a>
+      </div>
+
     </div>
     <div style="flex-basis:25%;max-width:250px">
       <div class="box1" style="height:300px;overflow:scroll;">
@@ -92,6 +102,16 @@
       </ul>
     </div>
   <iframe class="box1" src="https://loopifer.atabook.org/" title="Guestbook" style="max-width:70%;margin:0 auto;height:300px;"></iframe>
+  <script src="https://petrapixel.neocities.org/assets/js/upvote-widget.js?nocache=1"></script>
+  <script>
+    function copyText() {
+      /* Copy text into clipboard */
+      navigator.clipboard.writeText(
+        '&lt;a href="https://loopifer.neocities.org/" target="_blank">&lt;img src="https://files.catbox.moe/ig9ipm.png" alt="loopifer">&lt;/a>'
+      );
+      // Need indicator to show user it has been copied
+    }
+  </script>
     </div>
 
     <footer>
@@ -102,6 +122,6 @@
 </footer>
     
 
-  <script src="scripts/weather.js?nocache=1795109903334"></script>
+  <script src="scripts/weather.js?nocache=1795385498087"></script>
   </body>
 </html>
