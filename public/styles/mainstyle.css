@@ -55,10 +55,9 @@ td {
   background-color: rgb(255, 234, 196);
 }
 button:hover {
-  transform: scale(0.9);
-}
-textarea {
-  margin: 0 1.5em;
+  /*transform: scale(0.9);*/
+  filter: sepia(.1) brightness(1.1);
+  
 }
 .heading {
 display: flex;
@@ -160,6 +159,32 @@ min-height: 10vh;
 .scrollbox {
   max-height:400px;
   overflow-y:scroll;
+}
+
+.upvote-widget button {
+  background-color: rgb(111, 205, 121);
+  border:2px solid rgb(28, 139, 32);
+  border-radius: 2px;
+  font-size: .8em;
+}
+.upvote-widget button::after {
+  content: " Kudos"
+}
+
+.upvote-widget[data-upvoted] button {
+  background-color: rgb(196, 72, 41);
+  border-color: rgb(138, 19, 39);
+}
+
+.upvote-widget[data-upvoted] button::after {
+  content: " Thanks!";
+}
+.bar-holder {
+  align-items:center;
+  display:flex;
+}
+.bar-holder img {
+  margin-right:.5em;
 }
 
 /*Everything below is for the header*/
