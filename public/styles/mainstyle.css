@@ -160,7 +160,6 @@ min-height: 10vh;
   max-height:400px;
   overflow-y:scroll;
 }
-
 .upvote-widget button {
   background-color: rgb(67, 158, 76);
   border:2px solid rgb(19, 85, 21);
@@ -168,6 +167,7 @@ min-height: 10vh;
   font-size: .8em;
   padding:5 20px;
   cursor: pointer;
+  font-family: courier ,monospace;
 }
 .upvote-widget button::after {
   content: " Kudos"
